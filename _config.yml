@@ -21,7 +21,7 @@ repository               : "gianlucacovini/gianlucacovini.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Photo_Gianluca_Covini.jpg"
+  avatar           : "Photo_Gianluca_Covini_square.jpg"
   name             : "Gianluca Covini"
   pronouns         : # example: "she/her"  
   bio              : "Mathematics Master’s at UniPv | Researcher in Optimization | Collegio Borromeo Merit Scholar"
