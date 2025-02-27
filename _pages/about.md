@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a last year student of the Master's in Mathematics at the University of Pavia, with a strong interest in optimization under uncertainty and distributionally robust optimization in particular.
+I obtained my Bachelor's and Master's Degree in Mathematics at the <a href="https://matematica.unipv.it/en/homepage/">University of Pavia</a>.
 
-I am currently looking for a PhD; you could find my CV in the corresponding page.
+I will start a PhD in Statistical Optimal Transport at <a href="https://www.wias-berlin.de/">WIAS Berlin</a> in April under the supervision of <a href="https://jj-zhu.github.io/">JJ Zhu</a>.
+
+In the CV page, you can find my (almost) updated CV.
