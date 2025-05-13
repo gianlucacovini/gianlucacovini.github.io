@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Gianluca Covini"
 title_separator          : "-"
 name                     : &name "Gianluca Covini"
-description              : &description "Master's student in Mathematics at the University of Pavia"
+description              : &description "Prospective PhD student at Bocconi University"
 url                      : https://gianlucacovini.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gianlucacovini/gianlucacovini.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "Photo_Gianluca_Covini_square.jpg"
   name             : "Gianluca Covini"
   pronouns         : # example: "she/her"  
-  bio              : "Master in Mathematics at UniPV | Upcoming PhD student in Statistical Optimal Transport at WIAS"
+  bio              : "Master in Mathematics at UniPV | Upcoming PhD student in Statistics & CS at Bocconi University"
   location         : "Pavia, Italy"
-  employer         : "University of Pavia"
+  employer         : #
   uri              : # URL
   email            : "gianlucacovini00@gmail.com" 
 
