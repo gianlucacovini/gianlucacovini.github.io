@@ -9,6 +9,6 @@ redirect_from:
 
 I obtained my Bachelor's and Master's Degree in Mathematics at the <a href="https://matematica.unipv.it/en/homepage/">University of Pavia</a>.
 
-I will start a PhD in Statistical Optimal Transport at <a href="https://www.wias-berlin.de/">WIAS Berlin</a> in April under the supervision of <a href="https://jj-zhu.github.io/">JJ Zhu</a>.
+I will start the PhD program in Statistics & Computer Science at <a href="https://www.unibocconi.it/en/programs/phd/phd-statistics-and-computer-science">Bocconi University</a> in September.
 
-In the CV page, you can find my (almost) updated CV.
+My research interests include, but are not limited to, Optimal Transport, Operations Research and Bayesian Non-Parametrics.
