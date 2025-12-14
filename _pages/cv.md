@@ -9,6 +9,6 @@ redirect_from:
 
 ## My CV
 
-Here you can find a detailed "academic" CV: [Download my CV](assets/files/Gianluca_Covini_academicCV.pdf)
+Here you can find a detailed "academic" CV: [Download my CV]{{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }}
 
-Here you can find a more compressed "industrial" CV: [Download my CV](assets/files/Gianluca_Covini_industrialCV.pdf)
+Here you can find a more compressed "industrial" CV: [Download my CV]{{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }}
