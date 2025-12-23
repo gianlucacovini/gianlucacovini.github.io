@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-## My CV
+Here you can find a detailed "academic" CV: [Download my CV]({{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }})
 
-Scrivere il cv e qui e poi metterci due file: uno accademico e uno industriale
-
-<a href="https://drive.google.com/file/d/1BKe1wivwCmlu0GDA21YVMV_vCeu7v48k/view?usp=sharing">Download my CV here</a>.
+Here you can find a more compressed "industrial" CV: [Download my CV]({{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }})
