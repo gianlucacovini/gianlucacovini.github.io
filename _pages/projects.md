@@ -33,7 +33,7 @@ In this page, I uploaded some of the reports and presentations I did during my a
 
 [Report]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
-### Simulation Study of Stochastic Optimization Problems (Summer Project in Cambridge)
+### Statistical Study of Stochastic Optimization Problems (Summer Project in Cambridge)
 
 [Report]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
