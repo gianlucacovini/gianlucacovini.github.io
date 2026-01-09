@@ -17,13 +17,13 @@ author_profile: true
 
 # Thesis
 
-### Ewens' Sampling Formula and Applications to the Study of Biodiversity (Bachelor's Thesis, in italian)
-
-[Thesis]({{ '/assets/files/Thesis/TesiPrimaVersione.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
-
 ### Parameter Control for LeadingOnes on Enhanced State Spaces (Master's Thesis)
 
 [Thesis]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
+
+### Ewens' Sampling Formula and Applications to the Study of Biodiversity (Bachelor's Thesis, in italian)
+
+[Thesis]({{ '/assets/files/Thesis/TesiPrimaVersione.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
 
 # Reports
 
