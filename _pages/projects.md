@@ -27,6 +27,10 @@ author_profile: true
 
 # Reports
 
+### Submodularity for Distributionally Robust Optimization (Survey)
+
+[Report]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
+
 ### Simulation Study of Stochastic Optimization Problems (Summer Project in Cambridge)
 
 [Report]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
@@ -34,10 +38,6 @@ author_profile: true
 ### Internship Report at Sphaera (Internship Report)
 
 [Report]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
-
-### Submodularity for Distributionally Robust Optimization (Survey)
-
-[Report]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
 # Exams
 
@@ -57,4 +57,30 @@ author_profile: true
 
 ## Master's and Bachelor's Exams
 
+### Statistical Methods for Physics
 
+[Simulated Annealing: A Montecarlo Algorithm for Non-convex Optimization]({{ '/assets/files/Exams/Laurea/SMP_Covini.pdf' | relative_url }})
+
+### Machine Learning
+
+[Beans Classification]({{ '/assets/files/Exams/Laurea/SGianlucaCoviniMLExam01092023.pdf' | relative_url }})
+
+### Econometrics (in italian)
+
+[Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }})
+
+### Foundations of Data Science (in italian)
+
+[SVD randomizzata: Uun algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
+
+### Optimization Algorithms and Models (in italian)
+
+[Round-Based Public Transit Routing: Un algoritmo di ottimizzazione per il trasporto multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
+
+### Numerical Modeling (in italian)
+
+[Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
+
+### Numerical Analysis (in italian)
+
+[Metodi iterativi per sistemi lineari e integrazione numerica]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
