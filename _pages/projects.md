@@ -5,6 +5,8 @@ permalink: /projects/
 author_profile: true
 ---
 
+In this page, I uploaded some of the reports and presentations I did during my academic career so far.
+
 # Publications
 
 [Enhancing Parameter Control Policies with State Information]({{ '/assets/files/Publications/FOGA2025.pdf' | relative_url }}), *Proceedings of the Foundations of Genetic Algorithms (FOGA 2025)*, Leiden, Netherlands, 2025. arXiv:2507.08368.
@@ -40,6 +42,8 @@ author_profile: true
 [Report]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
 # Exams
+
+Many exams I did were written or oral examinations, but some of them included a presentation or a short report: here I uploaded them.
 
 ## PhD Exams
 
