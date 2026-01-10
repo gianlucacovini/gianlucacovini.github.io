@@ -25,7 +25,7 @@ In this page, I uploaded some of the reports and presentations I did during my a
 
 ### Ewens' Sampling Formula and Applications to the Study of Biodiversity (Bachelor's Thesis, in italian)
 
-[Thesis]({{ '/assets/files/Thesis/TesiPrimaVersione.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
+[Thesis]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
 
 # Reports
 
@@ -67,7 +67,7 @@ Many exams I did were written or oral examinations, but some of them included a 
 
 ### Machine Learning
 
-[Beans Classification]({{ '/assets/files/Exams/Laurea/SGianlucaCoviniMLExam01092023.pdf' | relative_url }})
+[Beans Classification]({{ '/assets/files/Exams/Laurea/GianlucaCoviniMLExam01092023.pdf' | relative_url }})
 
 ### Econometrics (in italian)
 
