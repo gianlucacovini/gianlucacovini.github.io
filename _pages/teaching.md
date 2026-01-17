@@ -23,10 +23,6 @@ In this page, I uploaded some material related to my teaching and tutoring activ
 
 [Drive folder]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
 
-## Probability and Statistics for BsC in Artificial Intelligence
-
-[Drive folder]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link }})
-
 ## Calculus II for BsC in Civil Eingeneering (in italian)
 
 No material available.
