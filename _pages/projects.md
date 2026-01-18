@@ -73,7 +73,7 @@ Industrial internship report
 
 Some examinations during my studies included the preparation of a presentation or a written report. Selected materials are listed below.
 
-### PhD-level courses
+### PhD courses
 
 **Optimization**  
 → [The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }})
