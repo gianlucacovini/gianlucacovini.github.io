@@ -35,7 +35,7 @@ My tutoring activities involved the preparation of additional exercise sets and 
 
 More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
 
-*Probability Elements* — BSc in Mathematics (Italian)  
+<ins>*Probability Elements*<\ins> — BSc in Mathematics (Italian)  
 Tutoring for second-year undergraduate students in Mathematics, focusing on the foundations of probability theory.  
 Topics primarily included probability models and random variables.
 
