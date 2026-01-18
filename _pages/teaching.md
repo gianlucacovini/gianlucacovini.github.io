@@ -18,7 +18,7 @@ I taught a course at *Almo Collegio Borromeo*, open to external participants, fo
 
 The course was developed under the scientific guidance of **Prof. Emanuele Dolera**; however, I was fully responsible for the design of the syllabus, preparation of lectures and examples, and course delivery.
 
-**Topics covered included:**
+**Topics** covered included:
 - Introduction to data analysis using *R*
 - Descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices
 - Statistical inference: regression models and hypothesis testing
