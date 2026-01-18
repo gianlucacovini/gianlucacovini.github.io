@@ -13,5 +13,5 @@ I obtained my **BSc and MSc in Mathematics** from the [University of Pavia](http
 
 **Research interests:** I am broadly interested in optimal transport and its connections with statistics, optimization, and machine learning, including variational methods and gradient-flow perspectives.
 
-**Contact.** gianluca.covini@phd.unibocconi.it
+**Contact:** gianluca.covini@phd.unibocconi.it
 
