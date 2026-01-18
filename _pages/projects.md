@@ -73,6 +73,9 @@ Industrial internship report
 
 Some examinations during my studies included the preparation of a presentation or a written report. Selected materials are listed below.
 
+Additional laboratory work and programming assignments developed during BSc and MSc courses are available on my GitHub profile:  
+→ [github.com/gianlucacovini](https://github.com/gianlucacovini)
+
 ### PhD courses
 
 **Optimization**  
@@ -98,13 +101,13 @@ Some examinations during my studies included the preparation of a presentation o
 → [Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }})
 
 **Foundations of Data Science** (Italian)  
-→ [Randomized SVD: An Algorithm for Dimensionality Reduction]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
+→ [SVD Randomizzata: un algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
 
 **Optimization Algorithms and Models** (Italian)  
-→ [Round-Based Public Transit Routing]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
+→ [Round-Based Public Transit Routing: un algoritmo per il trasport multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
 
 **Numerical Modeling** (Italian)  
-→ [The Pendulum Problem]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
+→ [Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
 
 **Numerical Analysis** (Italian)  
-→ [Iterative Methods for Linear Systems and Numerical Integration]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
+→ [Metodi iterativi per sistemi lineari e integrazione numerica]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
