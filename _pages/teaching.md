@@ -5,28 +5,63 @@ permalink: /teaching/
 author_profile: true
 ---
 
-In this page, I uploaded some material related to my teaching and tutoring activities.
+This page collects material related to my teaching and academic tutoring activities in mathematics and statistics, primarily at the undergraduate level.
 
-# Lecturing at Almo Collegio Borromeo
+---
 
-## Advanced Computational Statistics (in italian)
+## Lecturing
 
-[Drive folder]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link' }})
+**Almo Collegio Borromeo**
 
-# Academic Tutoring at University of Pavia
+*Advanced Computational Statistics* (Italian)  
+I taught a course at *Almo Collegio Borromeo*, open to external participants, focusing on the computational aspects of statistical methods. The course combined theoretical foundations with hands-on analysis of real-world datasets.
 
-## Probability Elements for BsC in Mathematics (in italian)
+The course was developed under the scientific guidance of **Prof. Emanuele Dolera**; however, I was fully responsible for the design of the syllabus, preparation of lectures and examples, and course delivery.
 
-[Drive folder]({{ 'https://drive.google.com/drive/folders/1LD8YmpuOxk2IFGAFMrFNMToH9Z32t5SB?usp=drive_link' }})
+**Topics covered included:**
+- Introduction to data analysis using *R*
+- Descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices
+- Statistical inference: regression models and hypothesis testing
 
-## Probability and Statistics for BsC in Artificial Intelligence
+→ [Course materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link' }})
 
-[Drive folder]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
+---
 
-## Calculus II for BsC in Civil Eingeneering (in italian)
+## Academic Tutoring
 
-No material available.
+My tutoring activities involved the preparation of additional exercise sets and their presentation during dedicated problem-solving sessions for undergraduate students.
 
-## Calculus I for BsC in Civil Eingeneering (in italian)
+**University of Pavia**
 
-[Drive folder]({{ 'https://drive.google.com/drive/folders/1RSu3n4BEYajWpSRBr0DWbt-hPVbI_vLK?usp=drive_link' }})
+More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
+
+*Probability Elements* — BSc in Mathematics (Italian)  
+Tutoring for second-year undergraduate students in Mathematics, focusing on the foundations of probability theory.  
+Topics primarily included probability models and random variables.
+
+→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1LD8YmpuOxk2IFGAFMrFNMToH9Z32t5SB?usp=drive_link' }})
+
+<br>
+
+*Probability and Statistics* — BSc in Artificial Intelligence  
+Tutoring for second-year undergraduate students in Artificial Intelligence, with a focus on probability theory.  
+Topics included probability models and random variables.
+
+→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
+
+<br>
+
+*Calculus II* — BSc in Civil Engineering and MSc in Building Engineering (Italian)  
+Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
+Topics included multivariable calculus and ordinary differential equations.
+
+→ No material currently available.
+
+<br>
+
+*Calculus I* — BSc in Civil Engineering and MSc in Building Engineering (Italian)
+Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
+Topics included complex numbers and introductory calculus.
+
+→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1RSu3n4BEYajWpSRBr0DWbt-hPVbI_vLK?usp=drive_link' }})
+
