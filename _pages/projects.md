@@ -5,86 +5,106 @@ permalink: /projects/
 author_profile: true
 ---
 
-In this page, I uploaded some of the reports and presentations I did during my academic career so far.
+This page collects selected research projects, publications, talks, and academic reports produced during my academic career.
 
-# Publications
+---
 
-[Enhancing Parameter Control Policies with State Information]({{ '/assets/files/Publications/FOGA2025.pdf' | relative_url }}), *Proceedings of the Foundations of Genetic Algorithms (FOGA 2025)*, Leiden, Netherlands, 2025. arXiv:2507.08368.
+## Publications
 
-# Talks
+**Enhancing Parameter Control Policies with State Information**  
+*Proceedings of the Foundations of Genetic Algorithms (FOGA 2025)*, Leiden, Netherlands, 2025.  
+arXiv:2507.08368.  
+→ [Paper (PDF)]({{ '/assets/files/Publications/FOGA2025.pdf' | relative_url }})
 
-[Dynamic Parameter Policies for LeadingOnes on Complex State Spaces]({{ '/assets/files/Talks/Presentation_ROADEF.pdf' | relative_url }}), *ROADEF – Conference of the French Operations Research Society*, Champs-sur-Marne, France, 2025.
+---
 
-[Variational inference via Wasserstein gradient flows]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }}), Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*, WIAS Berlin, Online talk, 2025.
+## Talks
 
-# Thesis
+**Dynamic Parameter Policies for LeadingOnes on Complex State Spaces**  
+*ROADEF – Conference of the French Operations Research Society*, Champs-sur-Marne, France, 2025.  
+→ [Slides]({{ '/assets/files/Talks/Presentation_ROADEF.pdf' | relative_url }})
 
-### Parameter Control for LeadingOnes on Enhanced State Spaces (Master's Thesis)
+<br>
 
-[Thesis]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
+**Variational Inference via Wasserstein Gradient Flows**  
+Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
+WIAS Berlin (online), 2025.  
+→ [Slides]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }})
 
-### Ewens' Sampling Formula and Applications to the Study of Biodiversity (Bachelor's Thesis, in italian)
+---
 
-[Thesis]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}), [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
+## Theses
 
-# Reports
+**Parameter Control for LeadingOnes on Enhanced State Spaces**  
+Master’s Thesis  
+→ [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}) ·
+[Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
 
-### Submodularity for Distributionally Robust Optimization (Survey)
+<br>
 
-[Report]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
+**Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
+Bachelor’s Thesis  
+→ [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}) ·
+[Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
 
-### Statistical Study of Stochastic Optimization Problems (Summer Project in Cambridge)
+---
 
-[Report]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
+## Reports and Research Projects
 
-### Internship Report at Sphaera (Internship Report)
+**Submodularity for Distributionally Robust Optimization**  
+Survey report  
+→ [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
-[Report]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
+<br>
 
-# Exams
+**Statistical Study of Stochastic Optimization Problems**  
+Summer research project, University of Cambridge  
+→ [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
-Many exams I did were written or oral examinations, but some of them included a presentation or a short report: here I uploaded them.
+<br>
 
-## PhD Exams
+**Internship Report at Sphaera**  
+Industrial internship report  
+→ [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
-### Optimization
+---
 
-[The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }})
+## Selected Exam Projects
 
-### Optimal Transport
+Some examinations during my studies included the preparation of a presentation or a written report. Selected materials are listed below.
 
-[The Gradient Flow Interpretation of the Fokker-Planck Equation]({{ '/assets/files/Exams/PhD/OT_Slide_definitive.pdf' | relative_url }})
+### PhD-level courses
 
-### Statistical Mechanics for Complex Systems
+**Optimization**  
+→ [The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }})
 
-[Mean-Field Optimal Control]({{ '/assets/files/Exams/PhD/MeanFieldOC _exam.pdf' | relative_url }})
+**Optimal Transport**  
+→ [The Gradient Flow Interpretation of the Fokker–Planck Equation]({{ '/assets/files/Exams/PhD/OT_Slide_definitive.pdf' | relative_url }})
 
-## Master's and Bachelor's Exams
+**Statistical Mechanics for Complex Systems**  
+→ [Mean-Field Optimal Control]({{ '/assets/files/Exams/PhD/MeanFieldOC _exam.pdf' | relative_url }})
 
-### Statistical Methods for Physics
+---
 
-[Simulated Annealing: A Montecarlo Algorithm for Non-convex Optimization]({{ '/assets/files/Exams/Laurea/SMP_Covini.pdf' | relative_url }})
+### Master’s and Bachelor’s courses
 
-### Machine Learning
+**Statistical Methods for Physics**  
+→ [Simulated Annealing: A Monte Carlo Algorithm for Non-convex Optimization]({{ '/assets/files/Exams/Laurea/SMP_Covini.pdf' | relative_url }})
 
-[Beans Classification]({{ '/assets/files/Exams/Laurea/GianlucaCoviniMLExam01092023.pdf' | relative_url }})
+**Machine Learning**  
+→ [Beans Classification]({{ '/assets/files/Exams/Laurea/GianlucaCoviniMLExam01092023.pdf' | relative_url }})
 
-### Econometrics (in italian)
+**Econometrics** (Italian)  
+→ [Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }})
 
-[Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }})
+**Foundations of Data Science** (Italian)  
+→ [Randomized SVD: An Algorithm for Dimensionality Reduction]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
 
-### Foundations of Data Science (in italian)
+**Optimization Algorithms and Models** (Italian)  
+→ [Round-Based Public Transit Routing]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
 
-[SVD randomizzata: Uun algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
+**Numerical Modeling** (Italian)  
+→ [The Pendulum Problem]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
 
-### Optimization Algorithms and Models (in italian)
-
-[Round-Based Public Transit Routing: Un algoritmo di ottimizzazione per il trasporto multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
-
-### Numerical Modeling (in italian)
-
-[Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
-
-### Numerical Analysis (in italian)
-
-[Metodi iterativi per sistemi lineari e integrazione numerica]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
+**Numerical Analysis** (Italian)  
+→ [Iterative Methods for Linear Systems and Numerical Integration]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
