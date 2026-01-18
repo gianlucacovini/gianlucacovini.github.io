@@ -27,7 +27,7 @@ arXiv:2507.08368.
 <br>
 
 **Variational Inference via Wasserstein Gradient Flows**  
-Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
+Public seminar (PhD interview talk), Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
 WIAS Berlin (online), 2025.  
 → [Slides]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }})
 
