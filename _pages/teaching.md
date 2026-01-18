@@ -13,7 +13,7 @@ This page collects material related to my teaching and academic tutoring activit
 
 **Almo Collegio Borromeo**
 
-*Advanced Computational Statistics* (Italian)  
+<ins>*Advanced Computational Statistics*</ins> (Italian)  
 I taught a course at *Almo Collegio Borromeo*, open to external participants, focusing on the computational aspects of statistical methods. The course combined theoretical foundations with hands-on analysis of real-world datasets.
 
 The course was developed under the scientific guidance of **Prof. Emanuele Dolera**; however, I was fully responsible for the design of the syllabus, preparation of lectures and examples, and course delivery.
@@ -35,7 +35,7 @@ My tutoring activities involved the preparation of additional exercise sets and 
 
 More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
 
-<ins>*Probability Elements*<\ins> — BSc in Mathematics (Italian)  
+<ins>*Probability Elements*</ins> — BSc in Mathematics (Italian)  
 Tutoring for second-year undergraduate students in Mathematics, focusing on the foundations of probability theory.  
 Topics primarily included probability models and random variables.
 
@@ -43,7 +43,7 @@ Topics primarily included probability models and random variables.
 
 <br>
 
-*Probability and Statistics* — BSc in Artificial Intelligence  
+<ins>*Probability and Statistics*</ins> — BSc in Artificial Intelligence  
 Tutoring for second-year undergraduate students in Artificial Intelligence, with a focus on probability theory.  
 Topics included probability models and random variables.
 
@@ -51,7 +51,7 @@ Topics included probability models and random variables.
 
 <br>
 
-*Calculus II* — BSc in Civil Engineering and MSc in Building Engineering (Italian)  
+<ins>*Calculus II*</ins> — BSc in Civil Engineering and MSc in Building Engineering (Italian)  
 Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
 Topics included multivariable calculus and ordinary differential equations.
 
@@ -59,7 +59,7 @@ Topics included multivariable calculus and ordinary differential equations.
 
 <br>
 
-*Calculus I* — BSc in Civil Engineering and MSc in Building Engineering (Italian)
+<ins>*Calculus I*</ins> — BSc in Civil Engineering and MSc in Building Engineering (Italian)
 Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
 Topics included complex numbers and introductory calculus.
 
