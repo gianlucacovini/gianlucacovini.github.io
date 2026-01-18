@@ -14,6 +14,9 @@ This page collects selected research projects, publications, talks, and academic
 **Enhancing Parameter Control Policies with State Information**  
 *Proceedings of the Foundations of Genetic Algorithms (FOGA 2025)*, Leiden, Netherlands, 2025.  
 arXiv:2507.08368.  
+
+This work studies dynamic parameter control strategies for randomized optimization algorithms, showing how state information can be exploited to improve theoretical and empirical performance guarantees, **in collaboration with Denis Antipov and Prof. Carola Doerr**.
+
 → [Paper (PDF)]({{ '/assets/files/Publications/FOGA2025.pdf' | relative_url }})
 
 ---
@@ -21,7 +24,10 @@ arXiv:2507.08368.
 ## Talks
 
 **Dynamic Parameter Policies for LeadingOnes on Complex State Spaces**  
-*ROADEF – Conference of the French Operations Research Society*, Champs-sur-Marne, France, 2025.  
+*ROADEF – Conference of the French Operations Research Society*, Champs-sur-Marne, France, 2025. 
+
+This talk presented the main results of my master’s thesis on dynamic parameter policies for randomized local search, developed during a research stay at LIP6–Sorbonne Université/CNRS under the supervision of **Prof. Carola Doerr**.
+
 → [Slides]({{ '/assets/files/Talks/Presentation_ROADEF.pdf' | relative_url }})
 
 <br>
@@ -29,6 +35,9 @@ arXiv:2507.08368.
 **Variational Inference via Wasserstein Gradient Flows**  
 Public seminar (PhD interview talk), Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
 WIAS Berlin (online), 2025.  
+
+In this public seminar, I presented the work by Lambert et al., *Variational Inference via Wasserstein Gradient Flows*, as part of the PhD interview process at WIAS Berlin.
+
 → [Slides]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }})
 
 ---
@@ -37,6 +46,9 @@ WIAS Berlin (online), 2025.
 
 **Parameter Control for LeadingOnes on Enhanced State Spaces**  
 Master’s Thesis  
+
+The thesis investigates optimal parameter control for randomized optimization algorithms using enriched state-space models, under the supervision of **Prof. Carola Doerr (Sorbonne Université/CNRS)** and **Prof. Stefano Gualandi (University of Pavia)**.
+
 → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}) ·
 [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
 
@@ -44,6 +56,9 @@ Master’s Thesis
 
 **Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
 Bachelor’s Thesis  
+
+This thesis studies Ewens’ sampling formula and its applications to population genetics models, under the supervision of **Prof. Emanuele Dolera**.
+
 → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}) ·
 [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
 
@@ -51,14 +66,22 @@ Bachelor’s Thesis
 
 ## Reports and Research Projects
 
+**Research in Statistical Optimal Transport**  
+Ongoing research collaboration with **Prof. Carlo Ciliberto** (UCL) on entropic approximations of the Knothe–Rosenblatt rearrangement and Bayesian inference.  
+(Status: work in progress)
+
 **Submodularity for Distributionally Robust Optimization**  
-Survey report  
+
+This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.
+
 → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
 <br>
 
 **Statistical Study of Stochastic Optimization Problems**  
-Summer research project, University of Cambridge  
+
+This project investigates the statistical properties of stochastic optimization algorithms through simulation studies, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.
+
 → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
 <br>
