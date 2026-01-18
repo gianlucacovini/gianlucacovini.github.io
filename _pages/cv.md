@@ -10,11 +10,11 @@ redirect_from:
 I provide two versions of my curriculum vitae, depending on the context.
 
 **Academic CV**  
-A detailed CV emphasizing education, research experience, and academic activities.  
+A more detailed CV for academic purposes.
 → [Download PDF]({{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }})
 
 <br>
 
 **Industrial CV**  
-A concise CV tailored to industry-oriented positions, focusing on technical skills and applied experience.  
+A more concise CV for industrial purposes.
 → [Download PDF]({{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }})
