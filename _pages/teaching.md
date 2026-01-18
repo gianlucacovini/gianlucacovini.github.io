@@ -11,7 +11,7 @@ This page collects material related to my teaching and academic tutoring activit
 
 ## Lecturing
 
-**Almo Collegio Borromeo**
+### Almo Collegio Borromeo
 
 <ins>*Advanced Computational Statistics*</ins> (Italian)  
 I taught a course at *Almo Collegio Borromeo*, open to external participants, focusing on the computational aspects of statistical methods. The course combined theoretical foundations with hands-on analysis of real-world datasets.
@@ -31,7 +31,7 @@ The course was developed under the scientific guidance of **Prof. Emanuele Doler
 
 My tutoring activities involved the preparation of additional exercise sets and their presentation during dedicated problem-solving sessions for undergraduate students.
 
-**University of Pavia**
+### University of Pavia
 
 More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
 
