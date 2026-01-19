@@ -70,6 +70,8 @@ This thesis studies Ewens’ sampling formula and its applications to population
 Ongoing research collaboration with **Prof. Carlo Ciliberto** (UCL) on entropic approximations of the Knothe–Rosenblatt rearrangement and Bayesian inference.  
 (Status: work in progress)
 
+<br>
+
 **Submodularity for Distributionally Robust Optimization**  
 
 This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.
