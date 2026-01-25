@@ -17,6 +17,6 @@ Here you can find a detailed CV for academic purposes.
 <br>
 
 **Short CV**  
-A shorter version suitable for both academic and industry applications.
+A shorter version suitable for both academic and industry purposes.
 
 → [Download PDF]({{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }})
