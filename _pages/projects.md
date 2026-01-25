@@ -82,14 +82,16 @@ This report surveys the role of submodular functions in distributionally robust 
 
 **Statistical Study of Stochastic Optimization Problems**  
 
-This project investigates the statistical properties of stochastic optimization algorithms through simulation studies, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.
+This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.
 
 → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
 <br>
 
 **Internship Report at Sphaera**  
-Industrial internship report  
+
+This project consisted in the developement of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.
+
 → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
 ---
