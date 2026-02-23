@@ -106,7 +106,8 @@ Additional laboratory work and programming assignments developed during BSc and 
 ### PhD courses
 
 **Julia Programming**
-→ [SlicedWasserstein.jl: a Julia package for sliced optimal transport and applications to clustering](https://github.com/gianlucacovini/SlicedWasserstein.jl)
+
+→ [SlicedWasserstein.jl](https://github.com/gianlucacovini/SlicedWasserstein.jl): a Julia package for sliced optimal transport and an application to clustering
 
 **Optimization**  
 → [The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }})
