@@ -105,6 +105,9 @@ Additional laboratory work and programming assignments developed during BSc and 
 
 ### PhD courses
 
+**Graph Theory**  
+→ Spectral Graph Theory and Discrete Poisson Equation: [slides]({{ '/assets/files/Exams/PhD/Slides_GT.pdf' | relative_url }}), [report]({{ '/assets/files/Exams/PhD/Report_GT.pdf' | relative_url }})
+
 **Julia Programming**
 
 → [SlicedWasserstein.jl](https://github.com/gianlucacovini/SlicedWasserstein.jl): a Julia package for sliced optimal transport and an application to clustering
