@@ -106,3 +106,59 @@
     opacity: 0.95;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .masthead,
+  .greedy-nav {
+    background: #0f1115 !important;
+    background-color: #0f1115 !important;
+  }
+
+  .masthead {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .greedy-nav a {
+    color: rgba(255, 255, 255, 0.82) !important;
+  }
+
+  .greedy-nav a:hover {
+    color: #7db1ff !important;
+  }
+
+  .greedy-nav .visible-links a:before {
+    background: #7db1ff;
+  }
+
+  .greedy-nav button {
+    background-color: #1f2937;
+    color: #ffffff;
+  }
+
+  .greedy-nav .hidden-links {
+    background: #171a21 !important;
+    border-color: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.55);
+  }
+
+  .greedy-nav .hidden-links a {
+    color: rgba(255, 255, 255, 0.86) !important;
+  }
+
+  .greedy-nav .hidden-links a:hover {
+    background: rgba(125, 177, 255, 0.14);
+    color: #7db1ff !important;
+  }
+
+  .greedy-nav .hidden-links li {
+    border-bottom-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .greedy-nav .hidden-links:before {
+    border-color: rgba(255, 255, 255, 0.14) transparent;
+  }
+
+  .greedy-nav .hidden-links:after {
+    border-color: #171a21 transparent;
+  }
+}
