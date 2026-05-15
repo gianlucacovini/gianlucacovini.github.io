@@ -41,124 +41,104 @@
 @import "print";
 
 /* =========================
-   Dark mode
+   Dark mode - forced
    ========================= */
 
-@media (prefers-color-scheme: dark) {
-  html,
-  body {
-    background-color: #0f1115;
-    color: rgba(255, 255, 255, 0.88);
-  }
-
-  .masthead {
-    background: #0f1115;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  }
-
-  .page__footer {
-    background-color: #0f1115;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.65);
-  }
-
-  a {
-    color: #7db1ff;
-  }
-
-  a:visited {
-    color: #b59cff;
-  }
-
-  .page__content h2 {
-    border-bottom-color: rgba(255, 255, 255, 0.16);
-  }
-
-  .archive__item-title,
-  .page__title,
-  h1, h2, h3, h4, h5, h6 {
-    color: rgba(255, 255, 255, 0.92);
-  }
-
-  .author__content,
-  .author__urls,
-  .sidebar,
-  .page__meta {
-    color: rgba(255, 255, 255, 0.70);
-  }
-
-  code,
-  pre {
-    background-color: rgba(255, 255, 255, 0.08);
-    color: rgba(255, 255, 255, 0.90);
-  }
-
-  table {
-    color: rgba(255, 255, 255, 0.88);
-  }
-
-  th,
-  td {
-    border-color: rgba(255, 255, 255, 0.16);
-  }
-
-  img {
-    opacity: 0.95;
-  }
+html,
+body {
+  background-color: #0f1115 !important;
+  color: rgba(255, 255, 255, 0.88) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .masthead,
-  .greedy-nav {
-    background: #0f1115 !important;
-    background-color: #0f1115 !important;
-  }
+.masthead,
+.greedy-nav {
+  background: #0f1115 !important;
+  background-color: #0f1115 !important;
+}
 
-  .masthead {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  }
+.masthead {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
 
-  .greedy-nav a {
-    color: rgba(255, 255, 255, 0.82) !important;
-  }
+.greedy-nav a,
+.masthead a {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
 
-  .greedy-nav a:hover {
-    color: #7db1ff !important;
-  }
+.greedy-nav a:hover,
+.masthead a:hover {
+  color: #7db1ff !important;
+}
 
-  .greedy-nav .visible-links a:before {
-    background: #7db1ff;
-  }
+.greedy-nav .visible-links a:before {
+  background: #7db1ff !important;
+}
 
-  .greedy-nav button {
-    background-color: #1f2937;
-    color: #ffffff;
-  }
+.greedy-nav button {
+  background-color: #1f2937 !important;
+  color: #ffffff !important;
+}
 
-  .greedy-nav .hidden-links {
-    background: #171a21 !important;
-    border-color: rgba(255, 255, 255, 0.14);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.55);
-  }
+.greedy-nav .hidden-links {
+  background: #171a21 !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.55) !important;
+}
 
-  .greedy-nav .hidden-links a {
-    color: rgba(255, 255, 255, 0.86) !important;
-  }
+.greedy-nav .hidden-links a {
+  color: rgba(255, 255, 255, 0.86) !important;
+}
 
-  .greedy-nav .hidden-links a:hover {
-    background: rgba(125, 177, 255, 0.14);
-    color: #7db1ff !important;
-  }
+.greedy-nav .hidden-links a:hover {
+  background: rgba(125, 177, 255, 0.14) !important;
+  color: #7db1ff !important;
+}
 
-  .greedy-nav .hidden-links li {
-    border-bottom-color: rgba(255, 255, 255, 0.12);
-  }
+.greedy-nav .hidden-links li {
+  border-bottom-color: rgba(255, 255, 255, 0.12) !important;
+}
 
-  .greedy-nav .hidden-links:before {
-    border-color: rgba(255, 255, 255, 0.14) transparent;
-  }
+.greedy-nav .hidden-links:before {
+  border-color: rgba(255, 255, 255, 0.14) transparent !important;
+}
 
-  .greedy-nav .hidden-links:after {
-    border-color: #171a21 transparent;
-  }
+.greedy-nav .hidden-links:after {
+  border-color: #171a21 transparent !important;
+}
+
+.page__footer {
+  background-color: #0f1115 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+a {
+  color: #7db1ff;
+}
+
+a:visited {
+  color: #b59cff;
+}
+
+.page__content h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+.page__title,
+.archive__item-title,
+h1, h2, h3, h4, h5, h6 {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.author__content,
+.author__urls,
+.sidebar,
+.page__meta {
+  color: rgba(255, 255, 255, 0.70) !important;
+}
+
+code,
+pre {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.90) !important;
 }
