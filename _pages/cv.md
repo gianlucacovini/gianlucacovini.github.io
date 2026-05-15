@@ -7,16 +7,31 @@ redirect_from:
   - /resume
 ---
 
-I provide two versions of my CV, depending on the context.
+<p>
+  <a class="btn btn--primary" href="{{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }}">Download extended CV</a>
+  <a class="btn btn--primary" href="{{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }}">Download shorter version</a>
+</p>
 
-**Academic CV**  
-Here you can find a detailed CV for academic purposes.  
+---
 
-→ [Download PDF]({{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }})
+## Education
 
-<br>
+- **PhD in Statistics & Computer Science**, Bocconi University, *2025–present*
 
-**Short CV**  
-A shorter version suitable for both academic and industry purposes.
+- **MSc in Mathematics**, University of Pavia, *2022–2025*
 
-→ [Download PDF]({{ '/assets/files/Gianluca_Covini_industrialCV.pdf' | relative_url }})
+- **Alumnus, Merit-Based Program**, [Almo Collegio Borromeo](https://www.collegioborromeo.it/), *2022–2024*
+
+- **BSc in Mathematics**, University of Pavia, *2019–2022*
+
+---
+
+## Past Positions
+
+- **Summer Research Intern**, Statistical Laboratory, University of Cambridge, *July–August 2024*  
+  Visiting program with Corpus Christi College.
+
+- **Research Intern in Operations Research**, LIP6, Sorbonne Université/CNRS, *March–September 2024*  
+  Erasmus+ Traineeship program.
+
+- **Machine Learning Researcher**, Sphaera, *August 2023–March 2024*
