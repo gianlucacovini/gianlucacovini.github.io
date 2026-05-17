@@ -7,35 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A list of the main pages on the site.
 
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% unless post.sitemap == false or post.hidden == true or post.published == false %}
+
+{% for nav_item in site.data.navigation.main %}
+  {% assign nav_page = nil %}
+
+  {% for page in site.pages %}
+    {% if page.url == nav_item.url %}
+      {% assign nav_page = page %}
+    {% endif %}
+  {% endfor %}
+
+  {% if nav_page %}
+    {% assign post = nav_page %}
     {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% unless post.sitemap == false or post.hidden == true or post.published == false %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-
-{% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% assign wrote_collection_label = false %}
-
-    {% for post in collection.docs %}
-      {% unless post.sitemap == false or post.hidden == true or post.published == false %}
-        {% unless wrote_collection_label %}
-          <h2>{{ collection.label }}</h2>
-          {% assign wrote_collection_label = true %}
-        {% endunless %}
-
-        {% include archive-single.html %}
-      {% endunless %}
-    {% endfor %}
-  {% endunless %}
+  {% else %}
+    <p><a href="{{ base_path }}{{ nav_item.url }}">{{ nav_item.title }}</a></p>
+  {% endif %}
 {% endfor %}
