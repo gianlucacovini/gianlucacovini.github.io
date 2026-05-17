@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Material"
-permalink: /material/
+title: "Materials"
+permalink: /materials/
 author_profile: true
 ---
 
