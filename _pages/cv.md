@@ -20,7 +20,7 @@ redirect_from:
 
 - **MSc in Mathematics**, University of Pavia, *2022–2025*
 
-- **Alumnus, Merit-Based Program**, [Almo Collegio Borromeo](https://www.collegioborromeo.it/), *2022–2024*
+- **Alumnus**, [Almo Collegio Borromeo](https://www.collegioborromeo.it/), *2022–2024*
 
 - **BSc in Mathematics**, University of Pavia, *2019–2022*
 
