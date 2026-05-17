@@ -23,21 +23,19 @@ A list of all the posts and pages found on the site. For you robots out there is
   {% endunless %}
 {% endfor %}
 
-{% capture written_label %}'None'{% endcapture %}
-
 {% for collection in site.collections %}
   {% unless collection.output == false or collection.label == "posts" %}
-    {% assign visible_docs = collection.docs | where_exp: "post", "post.sitemap != false and post.hidden != true and post.published != false" %}
-    {% if visible_docs.size > 0 %}
-      {% capture label %}{{ collection.label }}{% endcapture %}
-      {% if label != written_label %}
-        <h2>{{ label }}</h2>
-        {% capture written_label %}{{ label }}{% endcapture %}
-      {% endif %}
+    {% assign wrote_collection_label = false %}
 
-      {% for post in visible_docs %}
+    {% for post in collection.docs %}
+      {% unless post.sitemap == false or post.hidden == true or post.published == false %}
+        {% unless wrote_collection_label %}
+          <h2>{{ collection.label }}</h2>
+          {% assign wrote_collection_label = true %}
+        {% endunless %}
+
         {% include archive-single.html %}
-      {% endfor %}
-    {% endif %}
+      {% endunless %}
+    {% endfor %}
   {% endunless %}
 {% endfor %}
