@@ -50,6 +50,18 @@ body {
   color: rgba(255, 255, 255, 0.88) !important;
 }
 
+::selection {
+  background: #7db1ff;
+  color: #0f1115;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #7db1ff;
+  color: #0f1115;
+  text-shadow: none;
+}
+
 .masthead,
 .greedy-nav {
   background: #0f1115 !important;
