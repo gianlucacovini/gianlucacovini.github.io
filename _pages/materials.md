@@ -105,6 +105,9 @@ Additional laboratory work and programming assignments developed during BSc and 
 
 ### PhD courses
 
+- **Stochastic Processes**  
+  [Mean-field Schrödinger Problem]({{ '/assets/files/Exams/PhD/MFSP.pdf' | relative_url }})
+
 - **Statistical Theory**  
   [Merging Rate of Opinions via Optimal Transport on Random Measures]({{ '/assets/files/Exams/PhD/merging_rate.pdf' | relative_url }})
 
