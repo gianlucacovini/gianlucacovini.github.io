@@ -96,9 +96,9 @@ This page collects selected research projects, publications, talks, and academic
 
 ---
 
-## Selected Exam Projects
+## Exam Projects
 
-Some examinations during my studies included the preparation of a presentation or a written report. Selected materials are listed below.
+Some examinations during my studies included the preparation of a presentation or a written report. Relative materials are listed below.
 
 Additional laboratory work and programming assignments developed during BSc and MSc courses are available on my GitHub profile:  
 → [github.com/gianlucacovini](https://github.com/gianlucacovini)
