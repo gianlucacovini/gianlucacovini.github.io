@@ -105,9 +105,7 @@ Additional laboratory work and programming assignments developed during BSc and 
 
 ### PhD courses
 
-OT_generative.pdf
-
-- **Stochastic Processes**  
+- **Machine Learning**  
   [Optimal Transport for Generative Modeling]({{ '/assets/files/Exams/PhD/OT_generative.pdf' | relative_url }})
 
 - **Stochastic Processes**  
