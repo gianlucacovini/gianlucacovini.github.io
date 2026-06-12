@@ -105,6 +105,11 @@ Additional laboratory work and programming assignments developed during BSc and 
 
 ### PhD courses
 
+OT_generative.pdf
+
+- **Stochastic Processes**  
+  [Optimal Transport for Generative Modeling]({{ '/assets/files/Exams/PhD/OT_generative.pdf' | relative_url }})
+
 - **Stochastic Processes**  
   [Mean-field Schrödinger Problem]({{ '/assets/files/Exams/PhD/MFSP.pdf' | relative_url }})
 
