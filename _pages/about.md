@@ -13,7 +13,7 @@ I obtained my **BSc and MSc in Mathematics** from [University of Pavia](https://
 
 **Research interests:** I am currently working on variational problems involving Sinkhorn divergences, with motivations from machine learning.
 
-More broadly, I am interested in optimal transport, especially in the use of tools from the calculus of variations and gradient flows to study problems arising in statistics, optimization, and machine learning.
+More broadly, I am interested in optimal transport, especially in the use of tools from the calculus of variations, gradient flows and differential geometry to study problems arising in statistics, optimization, and machine learning.
 
 **Contact:** gianluca.covini@phd.unibocconi.it
 
