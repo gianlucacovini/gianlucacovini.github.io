@@ -90,7 +90,7 @@ This page collects selected research projects, publications, talks, and academic
 
 - **Internship Report at Sphaera**  
 
-  This project consisted in the developement of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.
+  This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.
   
   → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
@@ -146,7 +146,7 @@ Additional laboratory work and programming assignments developed during BSc and 
   [SVD Randomizzata: un algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
 
 - **Optimization Algorithms and Models** (Italian)  
-  [Round-Based Public Transit Routing: un algoritmo per il trasport multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
+  [Round-Based Public Transit Routing: un algoritmo per il trasporto multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
 
 - **Numerical Modeling** (Italian)  
   [Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
