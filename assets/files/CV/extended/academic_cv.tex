@@ -1,0 +1,482 @@
+%% Gianluca Covini -- Academic CV for webpage
+%% Revised version: cleaner academic structure, more selective coursework, corrected wording
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\definecolor{cvtext}{HTML}{263B4A}
+\definecolor{cvsection}{HTML}{174F73}
+\definecolor{cvaccent}{HTML}{2878A8}
+\definecolor{cvsecondary}{HTML}{527386}
+\definecolor{cvline}{HTML}{A9BDC8}
+
+\colorlet{color0}{cvtext}
+\colorlet{color1}{cvsection}
+\colorlet{color2}{cvsecondary}
+
+% Colour actually used by moderncv for section bars
+\colorlet{bodyrulecolor}{cvsection}
+
+\newcommand{\cvsubsection}[1]{%
+  \par
+  \vspace{0.9em}%
+  \noindent
+  {\large\bfseries\color{cvaccent}#1}%
+  \par
+  \vspace{0.15em}%
+  \noindent
+  {\color{cvline}\rule{\textwidth}{0.4pt}}%
+  \par
+  \vspace{0.7em}%
+}
+
+
+
+% School without a description
+% #1 year, #2 month, #3 title, #4 institution/location
+\newcommand{\school}[4]{%
+  \cvitem[0.05em]{#1}{%
+    \hangindent=3.2em%
+    \hangafter=1%
+    \makebox[3.2em][l]{\textbf{#2}}%
+    \textbf{#3}, \emph{#4}.%
+  }%
+}
+
+% School with a short description
+% #1 year, #2 month, #3 title, #4 institution/location, #5 topics
+\newcommand{\schoolwithtopics}[5]{%
+  \cvitem[0.05em]{#1}{%
+    \hangindent=3.2em%
+    \hangafter=1%
+    \makebox[3.2em][l]{\textbf{#2}}%
+    \textbf{#3}, \emph{#4}. #5%
+  }%
+}
+
+% page layout
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+
+\usepackage{iftex}
+
+% fonts / encoding
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
+
+% language
+\usepackage[english]{babel}
+
+% timelines
+\usepackage[firstyear=2018,lastyear=2030]{moderntimeline}
+\tlmaxdates{2019}{2030}
+
+% links
+\usepackage[hidelinks]{hyperref}
+
+% personal data
+\name{Gianluca}{Covini}
+\title{%
+  {\large PhD Student in Statistics and Computer Science}\\[-0.1em]
+  {\normalsize Bocconi University}%
+}
+
+% For web privacy, keep address and phone commented out.
+%\address{}{Milan, Italy}{}
+% \phone[mobile]{+39~366~486~3333}
+
+\homepage{gianlucacovini.github.io}
+\social[github]{gianlucacovini}
+\email{gianluca.covini@phd.unibocconi.it}
+% \social[linkedin]{gianluca-covini}
+
+% \photo[64pt][0.4pt]{GianCv}
+% \quote{My current research interests lie in \textbf{optimal transport}, with a focus on \emph{entropic OT, Sinkhorn-type geometries and gradient-flow perspectives}, motivated by applications in statistics, optimization, and machine learning.}
+
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\color{cvtext}
+\makecvtitle
+
+%----------------------------------------------------------------------------------
+% Research interests
+%----------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------
+% Education
+%----------------------------------------------------------------------------------
+\section{Academic Background}
+
+\cvsubsection{Education}
+
+\tlcventry{2025/9}{2030/1}%
+        {\href{https://www.unibocconi.it/en/programs/phd/phd-statistics-and-computer-science}{PhD in Statistics and Computer Science}}%
+        {Bocconi University}%
+        {Milan, Italy}%
+        {}%
+        {\begin{itemize}
+        \item \textbf{Advisor:} Prof. Hugo Lavenant.
+        \item \textbf{Current research topics:} entropic optimal transport, variational methods.
+        \item \textbf{Selected PhD coursework} (\emph{GPA: A}): Measure Theory and Optimal Transport; Probability Theory and Stochastic Processes; Statistical Theory; Theoretical Computer Science and Programming.
+        \end{itemize}}
+
+\tlcventry{2022/9}{2025/2}%
+        {\href{https://matematica.unipv.it/didattica/corsi-di-laurea/laurea-magistrale-in-matematica/}{MSc in Mathematics}}%
+        {University of Pavia}%
+        {Pavia, Italy}%
+        {\textit{110/110 \emph{cum laude}; GPA: 29.5/30}}%
+        {\begin{itemize}
+          \item \textbf{Selected coursework:} Functional Analysis; Advanced Probability; Stochastic Processes; Foundations of Geometry; Mathematical Finance; Econometrics; Machine Learning; Finite Element Method; Dynamical Systems.
+          \item \textbf{Additional coursework attended beyond the curriculum:} Advanced Functional Analysis; Evolution Equations; Calculus of Variations.
+          \item \textbf{Master's thesis:} \emph{Dynamic Parameter Policies for LeadingOnes on Enhanced State Spaces}, supervised by Prof. Carola Doerr (Sorbonne Universit\'e/CNRS) and Prof. Stefano Gualandi (University of Pavia).
+        \end{itemize}}
+
+\tlcventry{2022/9}{2024/7}%
+        {Student of the Merit-Based Programme}%
+        {\href{https://www.collegioborromeo.it/}{Almo Collegio Borromeo}}%
+        {Pavia, Italy}%
+        {}%
+        {\begin{itemize}
+          \item \textbf{Courses attended:} Optimal Transport for Optimization; Fuzzy Logic; Introduction to Stochastic Differential Equations; Quantitative Methods for Art.
+          \item \textbf{Co-organized courses:} Machine Learning for Healthcare Management; Seminar Series in Mathematics.
+          \item \textbf{Reading groups:} Hausdorff Measure and Fractals; Laplacian Eigenvalues, supervised by Prof. Dario Mazzoleni.
+        \end{itemize}}
+
+\tlcventry{2019/10}{2022/9}%
+        {\href{https://matematica.unipv.it/laurea-in-matematica/}{BSc in Mathematics}}%
+        {University of Pavia}%
+        {Pavia, Italy}%
+        {\textit{110/110 \emph{cum laude}; GPA: 29.8/30}}%
+        {\begin{itemize}
+          \item \textbf{Selected coursework:} Mathematical Analysis; Linear Algebra; Algebra; Geometry; Probability; Mathematical Statistics; Numerical Analysis; Optimization; Data Analysis.
+          \item \textbf{Bachelor's thesis:} \emph{Ewens Sampling Formula and its Applications to the Study of Population Biodiversity}, supervised by Prof. Emanuele Dolera.
+        \end{itemize}}
+
+
+\newpage
+%----------------------------------------------------------------------------------
+% Teaching experience
+%----------------------------------------------------------------------------------
+\cvsubsection{Teaching Experience}
+
+\cventry{10/2021 -- 09/2025}%
+        {Academic Tutor}%
+        {University of Pavia}%
+        {Pavia, Italy}%
+        {}%
+        {Teaching assistant for Calculus in the Engineering Bachelor's program and Probability in the Artificial Intelligence and Mathematics Bachelor's programs. Supervisors: Prof. Elisabetta Rocca, Prof. Abramo Agosti, Prof. Emanuele Dolera, and Prof. Carlo Orrieri.}
+
+\cventry{10/2023 -- 12/2023}%
+        {Lecturer -- Advanced Computational Statistics}%
+        {Almo Collegio Borromeo}%
+        {Pavia, Italy}%
+        {}%
+        {Designed and taught the course \emph{Advanced Computational Statistics}, covering theory and applications to real-world data in R. Supervisor: Prof. Emanuele Dolera.}
+
+%----------------------------------------------------------------------------------
+% Advanced schools and training
+%----------------------------------------------------------------------------------
+\cvsubsection{Advanced Schools and Training}
+
+% 2026
+\school
+  {2026}
+  {Jul}
+  {Causality and Graphical Models Summer School}
+  {Bocconi--StatML, Como, Italy}
+
+\schoolwithtopics
+  {}
+  {May}
+  {Mathematical Foundations of Machine Learning}
+  {CIRM, Vason, Italy}
+  {Dynamics, geometry, and theoretical guarantees for neural networks and statistical models from an analytical perspective.}
+
+% 2025
+\schoolwithtopics
+  {2025}
+  {Jul}
+  {Summer School in Analysis and Machine Learning}
+  {Festum Pi, Chania, Greece}
+  {Kinetic theory, stability of optimal transport, and diffusion models.}
+
+\schoolwithtopics
+  {}
+  {Jun}
+  {Theoretical Foundations of Machine Learning}
+  {MaLGa Center, University of Genoa, Genoa, Italy}
+  {Statistical learning theory, kernel methods, neural networks, optimization, RKHS, convex analysis, and generalization.}
+
+\schoolwithtopics
+  {}
+  {Apr}
+  {Computational Optimal Transport and Missing Values}
+  {Bocconi--StatML, Windsor, UK}
+  {Computational optimal transport (Gabriel Peyr\'e) and statistical learning with missing values.}
+
+% 2024
+\schoolwithtopics
+  {2024}
+  {Dec}
+  {PhD Winter School on Advanced Stochastic Optimization}
+  {NTNU, Trondheim, Norway}
+  {Mixed-integer stochastic programming, decision-making under uncertainty, distributionally robust optimization, and stochastic dual dynamic programming.}
+
+\schoolwithtopics
+  {}
+  {Jun}
+  {2nd Copenhagen PhD School of Stochastic Programming}
+  {University of Copenhagen, Copenhagen, Denmark}
+  {Stochastic programming, multistage models, bounding techniques, scenario generation, and decision-dependent uncertainty.}
+
+% 2020
+\schoolwithtopics
+  {2020}
+  {Sep}
+  {Intensive School in Data Science}
+  {ISAGS, University of Pavia, Pavia, Italy}
+  {Machine learning and applications in chemistry, genomics, and neuroscience.}
+
+\newpage
+
+\section{Research}
+
+\cvsubsection{Research Interests}
+
+I am interested in \textbf{optimal transport}, especially in the use of tools from \emph{calculus of variations, gradient flows and differential geometry} to study problems arising in statistics, optimization, and machine learning.
+
+%----------------------------------------------------------------------------------
+% Current projects
+%----------------------------------------------------------------------------------
+
+\cvsubsection{Current Research Projects}
+
+\begin{itemize}
+    \item \emph{Sinkhorn Propagation on Graphs}, joint with Hugo Lavenant (Bocconi University). 
+    We study a variational propagation problem on graphs involving Sinkhorn divergences, using variational methods, gradient-flow formulations, and numerical algorithms.
+
+    \item \emph{Bayes Rule via Entropic Approximation of the Knothe--Rosenblatt Rearrangement}, joint with Carlo Ciliberto (UCL) and Giulia Luise (UCL/Microsoft Research). 
+    We study entropic approximations of the Knothe–Rosenblatt rearrangement for posterior sampling in Bayesian inference.
+\end{itemize}
+
+%----------------------------------------------------------------------------------
+% Publications
+%----------------------------------------------------------------------------------
+\cvsubsection{Publications and Preprints}
+
+\cvitem{[1]}{Gianluca Covini, Denis Antipov, Carola Doerr. \emph{Enhancing Parameter Control Policies with State Information}. Proceedings of the Foundations of Genetic Algorithms (FOGA 2025), Leiden, Netherlands, 2025. \href{https://arxiv.org/abs/2507.08368}{arXiv:2507.08368}.}
+
+%----------------------------------------------------------------------------------
+% Talks and presentations
+%----------------------------------------------------------------------------------
+\cvsubsection{Talks and Presentations}
+
+\cventry{Feb 2025}%
+        {Conference Presentation}%
+        {ROADEF 2025 -- Conference of the French Operations Research Society}%
+        {Champs-sur-Marne, France}%
+        {}%
+        {Presented master's thesis research on dynamic parameter policies for randomized local search on the LeadingOnes problem. Abstract published in the \href{https://roadef2025.org/wp-content/uploads/2025/02/ROADEF2025_resumes.pdf}{ROADEF 2025 Book of Abstracts}.}
+
+\cventry{Jan 2025}%
+        {Seminar Talk}%
+        {WIAS Berlin, Seminar Series ``Modern Methods in Applied Stochastics and Nonparametric Statistics''}%
+        {Online}%
+        {}%
+        {Presented the paper by Lambert et al., \emph{Variational Inference via Wasserstein Gradient Flows}, in a public seminar of the WIAS research group Stochastic Algorithms and Nonparametric Statistics as part of a PhD interview process.}
+
+\cvsubsection{Software}
+
+\cvitem{}{
+  \textbf{\href{https://github.com/gianlucacovini/SlicedWasserstein.jl}{SlicedWasserstein.jl}},
+  a registered Julia package for sliced Wasserstein distances.
+  Author and maintainer.
+}
+
+\newpage
+%----------------------------------------------------------------------------------
+% Research experience
+%----------------------------------------------------------------------------------
+\cvsubsection{Undergraduate Research Experience}
+
+\cventry{10/2024 -- 12/2024}%
+        {Survey on Distributionally Robust Optimization}%
+        {Remote collaboration}%
+        {}%
+        {}%
+        {\begin{itemize}
+          \item Informal collaboration on \emph{submodular functions for distributionally robust optimization}.
+          \item \textbf{Supervisors:} Prof. Angelos Georghiou (University of Cyprus) and Prof. Rosario Paradiso (VU Amsterdam).
+          \item \textbf{Outcome:} \href{https://gianlucacovini.github.io/assets/files/Reports/DRO_report.pdf}{survey report}.
+        \end{itemize}}
+
+\cventry{07/2024 -- 08/2024}%
+        {Statistics Summer Research Intern}%
+        {Statistical Laboratory, University of Cambridge}%
+        {Cambridge, UK}%
+        {}%
+        {\begin{itemize}
+          \item Worked on the study of statistical properties of stochastic optimization problems, in the context of causal statistics.
+          \item \textbf{Supervisors:} Prof. Qingyuan Zhao and Tobias Freidling.
+          \item \textbf{Outcome:} \href{https://gianlucacovini.github.io/assets/files/Reports/stat_opt_report.pdf}{research report}.
+        \end{itemize}}
+
+\cventry{03/2024 -- 09/2024}%
+        {Research Intern in Operations Research}%
+        {LIP6 -- Sorbonne Universit\'e/CNRS}%
+        {Paris, France}%
+        {}%
+        {\begin{itemize}
+          \item Conducted research on dynamic algorithm configuration, developing optimal parameter policies for genetic algorithms.
+          \item \textbf{Supervisor:} Prof. Carola Doerr.
+          \item \textbf{Outcomes:} \href{https://unitesi.unipv.it/handle/20.500.14239/28559}{Master's thesis}; \href{https://www.arxiv.org/abs/2507.08368}{conference paper}.
+        \end{itemize}}
+
+\cventry{08/2023 -- 03/2024}%
+        {Machine Learning Researcher}%
+        {Sphaera}%
+        {Hybrid}%
+        {}%
+        {\begin{itemize}
+          \item Developed a player-tracking algorithm for five-a-side football using computer vision and deep-learning tools.
+          \item \textbf{Supervisors:} Dr. Mirko Messori and Dr. Giuseppe Roberto Marseglia.
+          \item \textbf{Outcome:} \href{https://gianlucacovini.github.io/assets/files/Reports/Relazione_Sphaera_compressed.pdf}{research report}; the resulting implementation is proprietary.
+        \end{itemize}}
+
+\section{Recognition}
+%----------------------------------------------------------------------------------
+% Honors and awards
+%----------------------------------------------------------------------------------
+\cvsubsection{Scholarships, Honors and Awards}
+
+\cvitem{2024--2026}{\textbf{Selected funded participation} in advanced schools and workshops, including Mathematical Foundations of Machine Learning by CIRM, StatML -- Bocconi Spring School, Festum Pi, Applied Mathematics School at KAUST, PhD School in Stochastic Programming at the University of Copenhagen.}
+
+\cvitem{2025}{\textbf{Full PhD Scholarship}, Bocconi University.}
+
+\cvitem{2024}{\textbf{Merit-Based Scholarship}, Associazione Alunni Almo Collegio Borromeo.}
+
+\cvitem{2024}{\textbf{Fully funded research stay}, Corpus Christi College, University of Cambridge.}
+
+\cvitem{2024}{\textbf{Erasmus+ Traineeship Grant} for research internship at LIP6, Sorbonne Universit\'e/CNRS, Paris.}
+
+\cvitem{2024}{\textbf{Research residence}, Maison de l'Italie, Cit\'e Internationale Universitaire de Paris.}
+
+\newpage
+
+%----------------------------------------------------------------------------------
+% Certifications
+%----------------------------------------------------------------------------------
+\cvsubsection{Certifications}
+
+\cvitem{Oct 2024}{\textbf{TOEFL iBT 106/120 (C1)}, ETS.}
+
+\cvitem{Oct 2024}{\textbf{GRE General Test}, ETS: Quantitative 168, Verbal 162.}
+
+\cvitem{}{\textbf{Additional certifications:} Getting Started with Deep Learning (NVIDIA, 2023); IBM Data Science (Coursera, 2021); DELF B1 (Minist\`ere de l'\'Education Nationale, 2016).}
+
+\section{Skills}
+
+%----------------------------------------------------------------------------------
+% Languages
+%----------------------------------------------------------------------------------
+\cvsubsection{Languages}
+
+\cvitemwithcomment{Italian}{Native}{}
+\cvitemwithcomment{English}{C1}{TOEFL iBT 106/120.}
+\cvitemwithcomment{French}{B1}{DELF B1.}
+
+%----------------------------------------------------------------------------------
+% Computer skills
+%----------------------------------------------------------------------------------
+\cvsubsection{Computer Skills}
+
+\cvdoubleitem{Programming}{Python, Julia, R, MATLAB}{Scientific computing}{NumPy, Pandas, PyTorch, OpenCV, Matplotlib}
+\cvdoubleitem{Optimization}{Pyomo, Gurobi, CPLEX}{Tools}{Git, \LaTeX, Linux, basic HPC usage}
+\cvdoubleitem{Other}{Multiprocessing, Excel, WordPress}{Cloud}{Basic AWS usage}
+
+%----------------------------------------------------------------------------------
+% Professional and organizational experience
+%----------------------------------------------------------------------------------
+\section{Service and Additional Experience}
+
+\tlcventry{2026/2}{2024/5}%
+        {Member of the Scientific Committee}%
+        {\href{https://www.alumnitaramelli.it/}{Associazione Alumni Taramelli}}%
+        {}%
+        {}%
+        {Served on the scientific committee of a project for secondary-school students.}
+
+\tlcventry{2022/10}{2023/10}%
+        {Auditor \& Data Analyst}%
+        {\href{https://jeitaly.org/}{JE Italy}}%
+        {}%
+        {}%
+        {Monitored and analyzed confederation data; provided audit consulting services for junior enterprises.}
+
+\tlcventry{2021/5}{2023/9}%
+        {IT Consultant}%
+        {\href{https://jecopavia.it/}{JECO Pavia}}%
+        {Pavia, Italy}%
+        {}%
+        {Data management and digitalization projects for SMEs. As \emph{Head of IT} (Sep 2021 -- Oct 2022), managed area members and annual strategy planning using OKRs.}
+
+\tlcventry{2022/7}{2022/9}%
+        {Volunteer}%
+        {Sant'Egidio -- Youth for Peace}%
+        {Pavia, Italy}%
+        {}%
+        {Organized recreational activities for children in difficult situations and activities aimed at countering school dropout.}
+
+\tlcventry{2020/10}{2021/9}%
+        {Activity Manager}%
+        {Entrepreneurship Club Pavia}%
+        {Pavia, Italy}%
+        {}%
+        {Organized public events with entrepreneurs and start-up founders; managed internal activities.}
+
+\tlcventry{2018/10}{2021/9}%
+        {Co-Founder and Board Member}%
+        {\href{https://www.themostmaiourm.aecserviziweb.com/}{The Most Maiorum}}%
+        {Pavia, Italy}%
+        {}%
+        {Organized cultural and charity events.}
+
+%----------------------------------------------------------------------------------
+% References
+%----------------------------------------------------------------------------------
+%\section{References}
+
+%\cvitem{}{Available upon request.}
+
+% For job applications in the EU/Italy, you may optionally add the following privacy statement.
+% For a public academic webpage, I would usually omit it.
+%
+
+\enlargethispage{\baselineskip}
+
+\vfill
+\noindent
+{\scriptsize
+\textit{I consent to the processing of my personal data for recruitment purposes in accordance with Regulation (EU) 2016/679 (GDPR).}
+\hfill
+Last updated: \today
+}
+
+\end{document}
