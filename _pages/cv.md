@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <p>
-  <a class="btn btn--primary" href="{{ '/assets/files/Gianluca_Covini_academicCV.pdf' | relative_url }}">Download extended CV</a>
-  <a class="btn btn--primary" href="{{ '/assets/files/Gianluca_Covini_shortCV.pdf' | relative_url }}">Download shorter version</a>
+  <a class="btn btn--primary" href="{{ '/assets/files/CV/extended/build/academic_cv.pdf' | relative_url }}">Download extended CV</a>
+  <a class="btn btn--primary" href="{{ '/assets/files/CV/short/build/shortCV.pdf' | relative_url }}">Download shorter version</a>
 </p>
 
 ---
