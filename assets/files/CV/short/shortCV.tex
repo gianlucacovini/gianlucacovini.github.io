@@ -1,0 +1,273 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1cm,right=1cm,top=0.5cm,bottom=0.35cm}
+\usepackage{paracol}
+\usepackage{microtype}
+\usepackage{iftex}
+
+% Equal-width columns on both pages.
+\columnratio{0.50}
+\setlength{\columnsep}{0.5cm}
+
+% Typography and colour system, kept close to the visual language of AltaCV.
+\ifPDFTeX
+  \usepackage[default]{lato}
+\else
+  \setmainfont{Carlito}
+\fi
+
+\definecolor{IFBlue}{HTML}{0F6688}
+\definecolor{IFDarkBlue}{HTML}{00425C}
+\definecolor{IFMediumBlue}{HTML}{17739A}
+\definecolor{IFLightBlue}{HTML}{228FBD}
+\definecolor{IFGrey}{HTML}{6D6E71}
+\definecolor{IFDarkGrey}{HTML}{231F20}
+\definecolor{IFMediumGrey}{HTML}{4D4D4F}
+\definecolor{IFLightGrey}{HTML}{A7A9AC}
+
+\colorlet{name}{IFMediumGrey}
+\colorlet{tagline}{IFMediumBlue}
+\colorlet{heading}{IFBlue}
+\colorlet{headingrule}{IFDarkBlue}
+\colorlet{subheading}{IFMediumGrey}
+\colorlet{accent}{IFLightBlue}
+\colorlet{emphasis}{IFMediumGrey}
+\colorlet{body}{IFGrey}
+
+\renewcommand{\namefont}{\Huge\bfseries}
+\renewcommand{\taglinefont}{\large\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Clear second-level heading: visible in narrow columns, but subordinate to sections.
+\renewcommand{\cvsubsection}[1]{%
+  \par\addvspace{0.9em}%
+  {\color{IFDarkBlue}\cvsubsectionfont #1\par}%
+  \vspace{0.12em}%
+  {\color{IFLightBlue}\rule{0.34\linewidth}{0.9pt}\par}%
+  \vspace{0.28em}%
+}
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+
+% Slightly tighter than the default, while retaining AltaCV's structure.
+\setlist{itemsep=0.08em,topsep=0.15em,parsep=0pt,partopsep=0pt,leftmargin=*}
+\newcommand{\compactdivider}{\vspace{0.05em}\divider\vspace{-0.25em}}
+\newcommand{\compactevent}[4]{%
+  {\normalsize\bfseries\color{emphasis}#1\par}%
+  \vspace{0.04em}%
+  \ifstrempty{#2}{}{\textbf{\color{accent}#2}\par}%
+  \vspace{0.05em}%
+  {\footnotesize\color{body}%
+    \ifstrempty{#3}{}{\cvDateMarker~#3}%
+    \ifstrempty{#4}{}{\hfill\cvLocationMarker~#4}%
+  }%
+  \par\vspace{0.28em}\normalsize
+}
+
+\name{Gianluca Covini}
+\tagline{PhD Student in Statistics and Computer Science\\Bocconi University}
+\personalinfo{%
+  \email{gianluca.covini@phd.unibocconi.it}
+  \homepage{gianlucacovini.github.io}
+  \github{gianlucacovini}
+  \location{Milan, Italy}
+}
+
+\begin{document}
+\makecvheader
+
+\begin{paracol}{2}
+
+% ================================================================
+% PAGE 1 — LEFT COLUMN: EDUCATION
+% ================================================================
+\cvsection{Education}
+
+\compactevent{PhD in Statistics and Computer Science}{Bocconi University}{Sep 2025 -- Jan 2030}{Milan, Italy}
+\begin{itemize}
+  \item \textbf{Advisor:} Prof. Hugo Lavenant.
+  \item Research topics: entropic optimal transport and variational methods.
+  \item Selected coursework: Measure Theory and Optimal Transport; Probability and Stochastic Processes; Statistical Theory. \textit{GPA: A}.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{MSc in Mathematics}{University of Pavia}{Sep 2022 -- Feb 2025}{Pavia, Italy}
+\textit{110/110 cum laude; GPA: 29.5/30}
+\begin{itemize}
+  \item Selected coursework: Functional Analysis; Advanced Probability; Stochastic Processes; Machine Learning.
+  \item Additional coursework: Advanced Functional Analysis; Evolution Equations; Calculus of Variations.
+  \item Thesis: \textit{Dynamic Parameter Policies for LeadingOnes on Enhanced State Spaces}.
+  \item Supervisors: Prof. Carola Doerr and Prof. Stefano Gualandi.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{Student, Merit-Based Programme}{Almo Collegio Borromeo}{Sep 2022 -- Jul 2024}{Pavia, Italy}
+\begin{itemize}
+  \item Advanced courses in optimal transport and stochastic differential equations.
+  \item Co-organized a mathematics seminar series and a machine-learning course.
+  \item Reading groups on Hausdorff measure, fractals, and Laplacian eigenvalues.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{BSc in Mathematics}{University of Pavia}{Oct 2019 -- Sep 2022}{Pavia, Italy}
+\textit{110/110 cum laude; GPA: 29.8/30}
+\begin{itemize}
+  \item Selected coursework: Probability; Mathematical Statistics; Numerical Analysis; Optimization; Data Analysis.
+  \item Thesis: \textit{Ewens Sampling Formula and its Applications to the Study of Population Biodiversity}.
+  \item Supervisor: Prof. Emanuele Dolera.
+\end{itemize}
+
+\switchcolumn
+
+% ================================================================
+% PAGE 1 — RIGHT COLUMN: RESEARCH
+% ================================================================
+\cvsection{Research}
+
+\cvsubsection{Research Interests}
+I am interested in \textbf{optimal transport}, especially in the use of tools from \emph{calculus of variations, gradient flows and differential geometry} to study problems arising in statistics, optimization, and machine learning.
+
+\cvsubsection{Current Projects}
+\compactevent{Sinkhorn Propagation on Graphs}{with Hugo Lavenant, Bocconi University}{Ongoing}{}
+We study \textbf{variational propagation problems on graphs} involving Sinkhorn divergences, using \emph{variational methods}, \emph{gradient-flow formulations}, and numerical algorithms.
+
+\smallskip
+\compactevent{Bayes Rule via Entropic Approximation of the Knothe--Rosenblatt Rearrangement}{with Carlo Ciliberto and Giulia Luise}{Ongoing}{}
+We study \textbf{entropic approximations of the Knothe--Rosenblatt rearrangement} for \emph{posterior sampling in Bayesian inference}.
+
+\cvsubsection{Publication}
+\textbf{G. Covini}, D. Antipov, and C. Doerr. \textit{Enhancing Parameter Control Policies with State Information}. Proceedings of FOGA 2025. \href{https://arxiv.org/abs/2507.08368}{arXiv:2507.08368}.
+
+\cvsubsection{Research Software}
+\textbf{\href{https://github.com/gianlucacovini/SlicedWasserstein.jl}{\texttt{SlicedWasserstein.jl}}} --- registered Julia package for computing sliced Wasserstein distances. Author and maintainer.
+
+\cvsubsection{Selected Talks}
+\compactevent{Conference Presentation}{ROADEF 2025}{Feb 2025}{Champs-sur-Marne, France}
+Presented MSc thesis research on \textbf{dynamic parameter policies} for randomized local search on the \emph{LeadingOnes} problem; abstract published in the conference book of abstracts.
+
+\smallskip
+\compactevent{Seminar Talk}{WIAS Berlin}{Jan 2025}{Online}
+Presented Lambert et al., \textit{Variational Inference via Wasserstein Gradient Flows}, in the seminar series \emph{``Modern Methods in Applied Stochastics and Nonparametric Statistics.''}
+
+\end{paracol}
+
+\newpage
+\columnratio{0.50}
+\begin{paracol}{2}
+
+% ================================================================
+% PAGE 2 — LEFT COLUMN
+% ================================================================
+\cvsection{Undergraduate Research}
+
+\compactevent{Survey on Distributionally Robust Optimization}{Remote collaboration}{Oct 2024 -- Dec 2024}{Remote}
+\begin{itemize}
+  \item Surveyed \textbf{submodular methods} for \emph{distributionally robust optimization}.
+  \item Supervisors: Prof. Angelos Georghiou and Prof. Rosario Paradiso.
+  \item \href{https://gianlucacovini.github.io/assets/files/Reports/DRO_report.pdf}{Survey report}.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{Statistics Summer Research Intern}{Statistical Laboratory, University of Cambridge}{Jul 2024 -- Aug 2024}{Cambridge, UK}
+\begin{itemize}
+  \item Studied \textbf{statistical properties of stochastic optimization problems} arising in \emph{causal statistics}.
+  \item Supervisors: Prof. Qingyuan Zhao and Tobias Freidling.
+  \item \href{https://gianlucacovini.github.io/assets/files/Reports/stat_opt_report.pdf}{Research report}.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{Research Intern in Operations Research}{LIP6 -- Sorbonne Universit\'e/CNRS}{Mar 2024 -- Sep 2024}{Paris, France}
+\begin{itemize}
+  \item Developed \textbf{optimal parameter-control policies} for genetic algorithms in \emph{dynamic algorithm configuration}.
+  \item Supervisor: Prof. Carola Doerr.
+  \item Outcomes: MSc thesis and FOGA 2025 paper.
+\end{itemize}
+
+\compactdivider
+
+\compactevent{Machine Learning Researcher}{Sphaera}{Aug 2023 -- Mar 2024}{Hybrid}
+\begin{itemize}
+  \item Developed a \textbf{computer-vision player-tracking algorithm} for five-a-side football.
+  \item Supervisors: Dr. Mirko Messori and Dr. Giuseppe Roberto Marseglia.
+  \item \href{https://gianlucacovini.github.io/assets/files/Reports/Relazione_Sphaera_compressed.pdf}{Research report}; implementation proprietary.
+\end{itemize}
+
+\cvsection{Teaching}
+
+\compactevent{Academic Tutor}{University of Pavia}{Oct 2021 -- Sep 2025}{Pavia, Italy}
+Teaching assistant for \textbf{Calculus} in Engineering and \textbf{Probability} in the Artificial Intelligence and Mathematics bachelor's programmes.
+
+\smallskip
+\compactevent{Lecturer, Advanced Computational Statistics}{Almo Collegio Borromeo}{Oct 2023 -- Dec 2023}{Pavia, Italy}
+Designed and taught a course combining \textbf{statistical theory} with applications to real-world data in \emph{R}.
+
+\switchcolumn
+
+% ================================================================
+% PAGE 2 — RIGHT COLUMN
+% ================================================================
+\cvsection{Summer Schools}
+\begin{itemize}
+  \item \textbf{2026}: Causality and Graphical Models (Bocconi--StatML); Mathematical Foundations of Machine Learning (CIRM).
+  \item \textbf{2025}: Analysis and Machine Learning (Festum Pi); Theoretical Foundations of Machine Learning (MaLGa); Computational Optimal Transport and Missing Values (Bocconi--StatML).
+  \item \textbf{2024}: Advanced Stochastic Optimization (NTNU); Copenhagen PhD School of Stochastic Programming.
+\end{itemize}
+
+\cvsection{Awards and Funding}
+\begin{itemize}
+  \item \textbf{Full PhD Scholarship}, Bocconi University (2025).
+  \item \textbf{Fully funded research stay}, Corpus Christi College, University of Cambridge (2024).
+  \item \textbf{Erasmus+ Traineeship Grant}, Sorbonne Universit\'e/CNRS (2024).
+  \item \textbf{Merit-Based Scholarship}, Associazione Alunni Almo Collegio Borromeo (2024).
+  \item Funded participation in selected international schools and workshops (2024--2026).
+\end{itemize}
+
+\cvsection{Skills}
+\cvsubsection{Programming and Scientific Computing}
+\cvtag{Python}\cvtag{Julia}\cvtag{R}\cvtag{MATLAB}\par
+\smallskip
+\cvtag{NumPy}\cvtag{Pandas}\cvtag{PyTorch}\cvtag{OpenCV}\cvtag{Matplotlib}\par
+\smallskip
+\cvtag{Pyomo}\cvtag{Gurobi}\cvtag{CPLEX}\cvtag{Git}\cvtag{LaTeX}\cvtag{Linux}
+
+\cvsubsection{Languages and Tests}
+\begin{itemize}
+  \item Italian: native.
+  \item English: C1, TOEFL iBT 106/120.
+  \item French: B1, DELF B1.
+  \item GRE: Quantitative 168, Verbal 162.
+\end{itemize}
+
+\cvsection{Other Activities}
+\compactevent{Member of the Scientific Committee}{Associazione Alumni Taramelli}{2024 -- 2026}{}
+Served on the \textbf{scientific committee} of a secondary-school outreach project.
+
+\smallskip
+\compactevent{IT Consultant; Head of IT}{JECO Pavia}{May 2021 -- Sep 2023}{Pavia, Italy}
+Worked on \textbf{digitalization projects for SMEs}; later managed the IT area and annual strategy.
+
+\smallskip
+\compactevent{Auditor and Data Analyst}{JE Italy}{Oct 2022 -- Oct 2023}{}
+Provided \textbf{data analysis} and \emph{audit support} for junior enterprises.
+
+\smallskip
+\textit{Earlier volunteering and organizational activities include Sant'Egidio -- Youth for Peace, Entrepreneurship Club Pavia, and The Most Maiorum.}
+
+\end{paracol}
+
+\vfill
+\noindent
+{\scriptsize
+\textit{I consent to the processing of my personal data for recruitment purposes in accordance with Regulation (EU) 2016/679 (GDPR).}
+\hfill
+Last updated: \today
+}
+
+
+\end{document}
