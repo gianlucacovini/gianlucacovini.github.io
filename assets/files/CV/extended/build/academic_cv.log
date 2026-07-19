@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  17 JUL 2026 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  19 JUL 2026 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,19 +761,19 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
  [1
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
 []\T1/lmss/m/n/10.95 (+20) Multiprocessing, Ex-cel,
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 477.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 483.
 [5] (build/academic_cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `academic_cv.out' has not changed.
-(rerunfilecheck)             Checksum: DC059B05AC8519B2B21B628BF678CFD9;612.
+(rerunfilecheck)             Checksum: 2510E34BEC6B8D05E1477EA3FAD4D6BD;546.
  ) 
 Here is how much of TeX's memory you used:
  27969 strings out of 467349
@@ -784,7 +784,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  129i,16n,136p,1072b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
-Output written on build/academic_cv.pdf (5 pages, 256156 bytes).
+Output written on build/academic_cv.pdf (5 pages, 256131 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
