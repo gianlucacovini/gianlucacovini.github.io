@@ -31,7 +31,7 @@ redirect_from:
 - **Summer Research Intern**, Statistical Laboratory, University of Cambridge, *July–August 2024*  
   Visiting program with Corpus Christi College.
 
-- **Research Intern in Operations Research**, LIP6, Sorbonne Université/CNRS, *March–September 2024*  
+- **Research Intern in Operations Research**, LIP6, Sorbonne Université/CNRS, *March–July 2024*  
   Erasmus+ Traineeship program.
 
 - **Machine Learning Researcher**, Sphaera, *August 2023–March 2024*
