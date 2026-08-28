@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1784324960.11335 "c:/Users/User/gianlucacovini.github.io/assets/files/CV/short/shortCV.tex" "build/shortCV.pdf" "shortCV" 1784324962.14497 0
+["pdflatex"] 1787934907.89871 "c:/Users/User/gianlucacovini.github.io/assets/files/CV/short/shortCV.tex" "build/shortCV.pdf" "shortCV" 1787934912.68337 0
   "altacv.cls" 1784323461 17713 2766496d895be383a78bb8c4388bb69f ""
-  "build/pdfa.xmpi" 1784324961 5042 09945c460e2b7d5b846b1e4a523c4f3c "pdflatex"
-  "build/shortCV.aux" 1784324961 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "build/shortCV.out" 1784324961 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "c:/Users/User/gianlucacovini.github.io/assets/files/CV/short/shortCV.tex" 1784324959 11655 6585e44824b3768257c098b56a3e5331 ""
+  "build/pdfa.xmpi" 1787934910 5042 c36cd856d03b305a3a31c885010967a2 "pdflatex"
+  "build/shortCV.aux" 1787934911 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "build/shortCV.out" 1787934911 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/User/gianlucacovini.github.io/assets/files/CV/short/shortCV.tex" 1787934906 11741 46b4c9d10e394df9f7109073214452d5 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1775643321 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1775644288 2920 d63721872b8c77041b88e51b8f7c291d ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1775644288 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -232,7 +232,7 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775647875 5619402 045890036aad9b52b154ef5568e59d3a ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1775647936 3648451 9a6c67da7527587451b701d4adbac019 ""
   "c:/texlive/2026/texmf.cnf" 1775647854 713 e69b156964470283e0530f5060668171 ""
-  "shortCV.tex" 1784324959 11655 6585e44824b3768257c098b56a3e5331 ""
+  "shortCV.tex" 1787934906 11741 46b4c9d10e394df9f7109073214452d5 ""
   (generated)
   "build/pdfa.xmpi"
   "build/shortCV.aux"
