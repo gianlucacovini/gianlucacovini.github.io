@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in **Statistics & Computer Science** at [Bocconi University](https://www.unibocconi.it/en/programs/phd/phd-statistics-and-computer-science), advised by [Hugo Lavenant](https://hugolav.github.io/).
+I am a second-year PhD student in **Statistics & Computer Science** at [Bocconi University](https://www.unibocconi.it/en/programs/phd/phd-statistics-and-computer-science), advised by [Hugo Lavenant](https://hugolav.github.io/).
 
 I obtained my **BSc and MSc in Mathematics** from [University of Pavia](https://matematica.unipv.it/en/homepage/).
 
