@@ -17,7 +17,7 @@ This page collects material related to my teaching and academic tutoring activit
 - **Mathematical Analysis I - Module 1 (30738)**, *A.Y. 2026-2027*, Bachelor in Artificial Intelligence
   Teaching Assistant
 
-- **Mathematics Preparatory Course (20355)**, *A.Y. 2026-2027*, Master in Economics and Social Sciences and Master in Data Science and Business Analytics
+- **Mathematics Preparatory Course (20355)**, *A.Y. 2026-2027*, Master in Data Science and Business Analytics
   Teaching Assistant
 
 More information about degree courses at Bocconi University is available [here]({{ 'https://didattica.unibocconi.it/ts/tsn_ord_num.php?anno=2027' }}).
