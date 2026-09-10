@@ -26,8 +26,7 @@ This page collects selected research projects, publications, talks, and academic
 - **Dynamic Parameter Policies for LeadingOnes on Complex State Spaces**  
   *ROADEF – Conference of the French Operations Research Society*, Champs-sur-Marne, France, 2025. 
   
-  This talk presented the main results of my master’s thesis on dynamic parameter policies for randomized local search, developed during a research stay at LIP6–Sorbonne Université/CNRS under the supervision of **Prof. Carola Doerr**.
-  
+  This talk presented the main results of my master’s thesis on dynamic parameter policies for randomized local search, developed during a research stay at LIP6–Sorbonne Université/CNRS under the supervision of **Prof. Carola Doerr**.<br>
   → [Slides]({{ '/assets/files/Talks/Presentation_ROADEF.pdf' | relative_url }})
 
 <br>
@@ -36,8 +35,7 @@ This page collects selected research projects, publications, talks, and academic
   Public seminar (PhD interview talk), Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
   WIAS Berlin (online), 2025.  
   
-  In this public seminar, I presented the work by Lambert et al., *Variational Inference via Wasserstein Gradient Flows*, as part of the PhD interview process at WIAS Berlin.
-  
+  In this public seminar, I presented the work by Lambert et al., *Variational Inference via Wasserstein Gradient Flows*, as part of the PhD interview process at WIAS Berlin.<br>
   → [Slides]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }})
 
 ---
@@ -47,8 +45,7 @@ This page collects selected research projects, publications, talks, and academic
 - **Parameter Control for LeadingOnes on Enhanced State Spaces**  
   Master’s Thesis  
   
-  The thesis investigates optimal parameter control for randomized optimization algorithms using enriched state-space models, under the supervision of **Prof. Carola Doerr (Sorbonne Université/CNRS)** and **Prof. Stefano Gualandi (University of Pavia)**.
-  
+  The thesis investigates optimal parameter control for randomized optimization algorithms using enriched state-space models, under the supervision of **Prof. Carola Doerr (Sorbonne Université/CNRS)** and **Prof. Stefano Gualandi (University of Pavia)**.<br>
   → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}) ·
   [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
 
@@ -57,8 +54,7 @@ This page collects selected research projects, publications, talks, and academic
 - **Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
   Bachelor’s Thesis  
   
-  This thesis studies Ewens’ sampling formula and its applications to population genetics models, under the supervision of **Prof. Emanuele Dolera**.
-  
+  This thesis studies Ewens’ sampling formula and its applications to population genetics models, under the supervision of **Prof. Emanuele Dolera**.<br>
   → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}) ·
   [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
 
@@ -74,24 +70,21 @@ This page collects selected research projects, publications, talks, and academic
 
 - **Submodularity for Distributionally Robust Optimization**  
 
-  This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.
-  
+  This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
 <br>
 
 - **Statistical Study of Stochastic Optimization Problems**  
 
-  This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.
-  
+  This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
 <br>
 
 - **Internship Report at Sphaera**  
 
-  This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.
-  
+  This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
 ---
