@@ -5,63 +5,54 @@ permalink: /teaching/
 author_profile: true
 ---
 
-This page collects material related to my teaching and academic tutoring activities in mathematics and statistics, primarily at the undergraduate level.
+This page collects material related to my teaching and academic tutoring activities.
 
 ---
 
-## Lecturing
+## At Bocconi University
 
-### Almo Collegio Borromeo
+- **Algebraic and Topological Methods (30758)**, *A.Y. 2026-2027*, Bachelor in Artificial Intelligence
+  Teaching Assistant
 
-<ins>*Advanced Computational Statistics*</ins> (Italian) · *A.Y. 2023–2024*  
-I taught a course at *Almo Collegio Borromeo*, open to external participants, focusing on the computational aspects of statistical methods. The course combined theoretical foundations with hands-on analysis of real-world datasets.
+- **Mathematical Analysis I - Module 1 (30738)**, *A.Y. 2026-2027*, Bachelor in Artificial Intelligence
+  Teaching Assistant
 
-The course was developed under the scientific guidance of **Prof. Emanuele Dolera**; however, I was fully responsible for the design of the syllabus, preparation of lectures and examples, and course delivery.
+- **Mathematics Preparatory Course (20355)**, *A.Y. 2026-2027*, Master in Economics and Social Sciences and Master in Data Science and Business Analytics
+  Teaching Assistant
 
-**Topics** covered included:
-- Introduction to data analysis using *R*
-- Descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices
-- Statistical inference: regression models and hypothesis testing
+More information about degree courses at Bocconi University is available [here]({{ 'https://didattica.unibocconi.it/ts/tsn_ord_num.php?anno=2027' }}).
+
+---
+
+## At Almo Collegio Borromeo
+
+- **Advanced Computational Statistics** (in Italian), *A.Y. 2023-2024*, Short course open to external participants
+  Lecturer
+
+*Topics*: Introduction to data analysis using *R*; descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices; statistical inference: regression models and hypothesis testing.
 
 → [Course materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link' }})
 
 ---
 
-## Academic Tutoring
+## At University of Pavia
 
-My tutoring activities involved the preparation of additional exercise sets and their presentation during dedicated problem-solving sessions for undergraduate students.
-
-### University of Pavia
-
-More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
-
-<ins>*Probability Elements*</ins> — BSc in Mathematics (Italian) · *A.Y. 2024–2025*  
-Tutoring for second-year undergraduate students in Mathematics, focusing on the foundations of probability theory.  
-Topics primarily included probability models and random variables.
+- **Probability Elements** (in Italian), *A.Y. 2024-2025*, Bachelor in Mathematics
+  Academic Tutoring
 
 → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1LD8YmpuOxk2IFGAFMrFNMToH9Z32t5SB?usp=drive_link' }})
 
-<br>
-
-<ins>*Probability and Statistics*</ins> — BSc in Artificial Intelligence · *A.Y. 2022–2023*  
-Tutoring for second-year undergraduate students in Artificial Intelligence, with a focus on probability theory.  
-Topics included probability models and random variables.
+- **Probability and Statistics - Module 1**, *A.Y. 2022-2023*, Bachelor in Artificial Intelligence
+  Academic Tutoring
 
 → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
 
-<br>
+- **Mathematical Analysis II** (in Italian), *A.Y. 2021-2022*, Bachelor in Civil Engineering and Master in Building Engineering
+  Academic Tutoring
 
-<ins>*Calculus II*</ins> — BSc in Civil Engineering and MSc in Building Engineering (Italian) · *A.Y. 2021–2022*  
-Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
-Topics included multivariable calculus and ordinary differential equations.
-
-→ No material currently available.
-
-<br>
-
-<ins>*Calculus I*</ins> — BSc in Civil Engineering and MSc in Building Engineering (Italian) · *A.Y. 2021–2022*
-Tutoring for first-year undergraduate students in Civil Engineering and first-year master's students in Building Engineering.
-Topics included complex numbers and introductory calculus.
+- **Mathematical Analysis I** (in Italian), *A.Y. 2021-2022*, Bachelor in Civil Engineering and Master in Building Engineering
+  Academic Tutoring
 
 → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1RSu3n4BEYajWpSRBr0DWbt-hPVbI_vLK?usp=drive_link' }})
 
+More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
