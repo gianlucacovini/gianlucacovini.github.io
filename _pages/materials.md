@@ -61,18 +61,15 @@ This page collects selected research projects, publications, talks, and academic
   Ongoing research collaboration with **Prof. Carlo Ciliberto** (UCL) on entropic approximations of the Knothe–Rosenblatt rearrangement and Bayesian inference.  
   (Status: work in progress)
 
-- **Submodularity for Distributionally Robust Optimization**  
-
+- **Submodularity for Distributionally Robust Optimization** <br>
   This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
-- **Statistical Study of Stochastic Optimization Problems**  
-
+- **Statistical Study of Stochastic Optimization Problems**  <br>
   This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
 
-- **Internship Report at Sphaera**  
-
+- **Internship Report at Sphaera**  <br>
   This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
 
