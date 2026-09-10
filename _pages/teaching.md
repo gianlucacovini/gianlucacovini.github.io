@@ -29,8 +29,7 @@ More information about degree courses at Bocconi University is available [here](
 - **Advanced Computational Statistics** (in Italian), *A.Y. 2023-2024*, Short course open to external participants<br>
   *Lecturer*
 
-*Topics*: Introduction to data analysis using *R*; descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices; statistical inference: regression models and hypothesis testing.
-
+*Topics*: Introduction to data analysis using *R*; descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices; statistical inference: regression models and hypothesis testing.<br>
 → [Course materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link' }})
 
 ---
@@ -39,20 +38,17 @@ More information about degree courses at Bocconi University is available [here](
 
 - **Probability Elements** (in Italian), *A.Y. 2024-2025*, Bachelor in Mathematics<br>
   *Academic Tutoring*
-
-→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1LD8YmpuOxk2IFGAFMrFNMToH9Z32t5SB?usp=drive_link' }})
+  → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1LD8YmpuOxk2IFGAFMrFNMToH9Z32t5SB?usp=drive_link' }})
 
 - **Probability and Statistics - Module 1**, *A.Y. 2022-2023*, Bachelor in Artificial Intelligence<br>
   *Academic Tutoring*
-
-→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
+  → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1W7c88UbzLzrZj0iF_hZld7EoRkjqwuAp?usp=drive_link' }})
 
 - **Mathematical Analysis II** (in Italian), *A.Y. 2021-2022*, Bachelor in Civil Engineering and Master in Building Engineering<br>
   *Academic Tutoring*
 
 - **Mathematical Analysis I** (in Italian), *A.Y. 2021-2022*, Bachelor in Civil Engineering and Master in Building Engineering<br>
   *Academic Tutoring*
-
-→ [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1RSu3n4BEYajWpSRBr0DWbt-hPVbI_vLK?usp=drive_link' }})
+  → [Tutoring materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1RSu3n4BEYajWpSRBr0DWbt-hPVbI_vLK?usp=drive_link' }})
 
 More information about degree courses at the University of Pavia is available [here]({{ 'https://unipv.coursecatalogue.cineca.it/' }}).
