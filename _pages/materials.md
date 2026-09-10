@@ -28,8 +28,6 @@ This page collects selected research projects, publications, talks, and academic
   This talk presented the main results of my master’s thesis on dynamic parameter policies for randomized local search, developed during a research stay at LIP6–Sorbonne Université/CNRS under the supervision of **Prof. Carola Doerr**.<br>
   → [Slides]({{ '/assets/files/Talks/Presentation_ROADEF.pdf' | relative_url }})
 
-<br>
-
 - **Variational Inference via Wasserstein Gradient Flows**  
   Public seminar (PhD interview talk), Seminar series *Modern Methods in Applied Stochastics and Nonparametric Statistics*,  
   WIAS Berlin (online), 2025.  
@@ -48,8 +46,6 @@ This page collects selected research projects, publications, talks, and academic
   → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}) ·
   [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
 
-<br>
-
 - **Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
   Bachelor’s Thesis  
   
@@ -65,21 +61,15 @@ This page collects selected research projects, publications, talks, and academic
   Ongoing research collaboration with **Prof. Carlo Ciliberto** (UCL) on entropic approximations of the Knothe–Rosenblatt rearrangement and Bayesian inference.  
   (Status: work in progress)
 
-<br>
-
 - **Submodularity for Distributionally Robust Optimization**  
 
   This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
 
-<br>
-
 - **Statistical Study of Stochastic Optimization Problems**  
 
   This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.<br>
   → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
-
-<br>
 
 - **Internship Report at Sphaera**  
 
