@@ -15,8 +15,7 @@ This page collects selected research projects, publications, talks, and academic
   *Proceedings of the Foundations of Genetic Algorithms (FOGA 2025)*, Leiden, Netherlands, 2025.  
   arXiv:2507.08368.  
 
-  This work studies dynamic parameter control strategies for randomized optimization algorithms, showing how state information can be exploited to improve theoretical and empirical performance guarantees, **in collaboration with Denis Antipov and Prof. Carola Doerr**.
-
+  This work studies dynamic parameter control strategies for randomized optimization algorithms, showing how state information can be exploited to improve theoretical and empirical performance guarantees, **in collaboration with Denis Antipov and Prof. Carola Doerr**.<br>
   → [Paper (PDF)]({{ '/assets/files/Publications/FOGA2025.pdf' | relative_url }})
 
 ---
