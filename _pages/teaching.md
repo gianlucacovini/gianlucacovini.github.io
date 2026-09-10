@@ -24,7 +24,7 @@ More information about degree courses at Bocconi University is available [here](
 
 ---
 
-## At Almo Collegio Borromeo
+## At Collegio Borromeo
 
 - **Advanced Computational Statistics** (in Italian), *A.Y. 2023-2024*, Short course open to external participants<br>
   *Lecturer*
