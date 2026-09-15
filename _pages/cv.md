@@ -20,7 +20,7 @@ redirect_from:
 
 - **MSc in Mathematics**, University of Pavia, *2022–2025*
 
-- **Resident Scholar**, Almo Collegio Borromeo, *2022–2024*
+- **Fellow**, Almo Collegio Borromeo, *2022–2024*
 
 - **BSc in Mathematics**, University of Pavia, *2019–2022*
 
