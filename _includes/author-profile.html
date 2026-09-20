@@ -7,7 +7,9 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
+    {% if author.avatar_emoji %}
+      <span class="author__avatar-emoji" role="img" aria-label="{{ author.avatar_label | default: 'Academic profile' }}">{{ author.avatar_emoji }}</span>
+    {% elsif author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">

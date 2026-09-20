@@ -21,6 +21,9 @@ The Research page is deliberately kept out of `_data/navigation.yml` until the
 next preprint is ready. Do not remove `_pages/research.md` or its files under
 `assets/files/Publications/` and `assets/files/Talks/`.
 
+Pages that contain mathematical notation must opt in to MathJax by adding
+`math: true` to their front matter.
+
 The CV sources are stored beside their compiled PDFs under `assets/files/CV/`.
 Only the PDFs inside the `build` directories are versioned; LaTeX intermediate
 files are ignored.

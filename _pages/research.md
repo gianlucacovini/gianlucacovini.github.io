@@ -3,6 +3,8 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+sitemap: false
+robots: "noindex, nofollow"
 ---
 
 This page collects my publications and talks.

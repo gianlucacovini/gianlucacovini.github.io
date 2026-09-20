@@ -10,9 +10,10 @@ repository: "gianlucacovini/gianlucacovini.github.io"
 
 # Sidebar profile
 author:
-  avatar: "Photo_Gianluca_Covini_square.jpg"
+  avatar_emoji: "🎓"
+  avatar_label: "Academic profile"
   name: "Gianluca Covini"
-  bio: "PhD student in Statistics & CS at Bocconi University | MSc in Mathematics at UniPV"
+  bio: "PhD student in Statistics & CS, Bocconi<br>MSc Mathematics, University of Pavia"
   location: "Milan, Italy"
   email: "gianluca.covini@phd.unibocconi.it"
   github: "gianlucacovini"
