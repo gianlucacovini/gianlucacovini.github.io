@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Teaching"
+description: "Teaching and academic tutoring activities of Gianluca Covini at Bocconi University."
 permalink: /teaching/
 author_profile: true
 ---

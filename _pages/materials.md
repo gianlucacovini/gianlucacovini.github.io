@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Materials"
+description: "Theses, reports, and academic materials by Gianluca Covini, produced before and during his PhD in Statistics & Computer Science at Bocconi University."
 permalink: /materials/
 author_profile: true
 ---

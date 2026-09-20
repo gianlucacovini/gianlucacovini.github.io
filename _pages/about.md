@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+description: "Gianluca Covini is a PhD student in Statistics & Computer Science at Bocconi University, working on optimal transport, calculus of variations, and gradient flows."
 author_profile: true
 redirect_from:
   - /about/

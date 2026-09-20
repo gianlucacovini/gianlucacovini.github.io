@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
+description: "Curriculum vitae of Gianluca Covini, PhD student in Statistics & Computer Science at Bocconi University — education, research positions, and downloadable CV."
 permalink: /cv/
 author_profile: true
 redirect_from:

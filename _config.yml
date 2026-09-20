@@ -7,6 +7,14 @@ description: "PhD student at Bocconi University"
 url: "https://gianlucacovini.github.io"
 baseurl: ""
 repository: "gianlucacovini/gianlucacovini.github.io"
+og_image: "Photo_Gianluca_Covini_square.jpg"
+
+# Structured data for search engines
+social:
+  type: Person
+  name: "Gianluca Covini"
+  links:
+    - "https://github.com/gianlucacovini"
 
 # Sidebar profile
 author:
