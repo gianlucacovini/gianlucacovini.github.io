@@ -20,7 +20,8 @@ social:
     - "https://github.com/gianlucacovini"
     - "https://faculty.unibocconi.eu/gianlucacovini/"
     - "https://orcid.org/0009-0001-2803-8209"
-    # Add here once created: Google Scholar profile (see chat notes)
+    - "https://scholar.google.com/citations?user=GsfWSOUAAAAJ"
+    - "https://arxiv.org/search/?searchtype=author&query=Covini%2C+Gianluca"
 
 # Sidebar profile
 author:
@@ -31,6 +32,8 @@ author:
   email: "gianluca.covini@phd.unibocconi.it"
   github: "gianlucacovini"
   orcid: "https://orcid.org/0009-0001-2803-8209"
+  googlescholar: "https://scholar.google.com/citations?user=GsfWSOUAAAAJ"
+  arxiv: "https://arxiv.org/search/?searchtype=author&query=Covini%2C+Gianluca"
 
 # Site behavior
 breadcrumbs: false
