@@ -5,7 +5,7 @@ permalink: /materials/
 author_profile: true
 ---
 
-This page collects projects and academic reports produced during my undergraduate.
+This page collects projects and academic reports produced before and during the first stages of my PhD.
 
 ---
 
