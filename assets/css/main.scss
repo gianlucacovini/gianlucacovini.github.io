@@ -46,35 +46,35 @@
 
 @mixin light-theme-vars {
   color-scheme: light;
-  --site-background: #faf7f4;
-  --site-surface: #f2ece8;
+  --site-background: #f7f6f2;
+  --site-surface: #efede6;
   --site-surface-raised: #ffffff;
-  --site-text: #2b2526;
-  --site-heading: #201a1b;
-  --site-muted: #6f6466;
-  --site-border: #ded4d1;
-  --site-accent: #a63d48;
-  --site-accent-hover: #8f2f3b;
-  --site-accent-soft: rgba(166, 61, 72, 0.12);
+  --site-text: #242625;
+  --site-heading: #161817;
+  --site-muted: rgba(36, 38, 37, 0.65);
+  --site-border: #dbd8d0;
+  --site-accent: #356c73;
+  --site-accent-hover: #28565c;
+  --site-accent-soft: rgba(53, 108, 115, 0.12);
   --site-on-accent: #ffffff;
-  --site-selection: #f0d3d6;
-  --site-shadow: rgba(43, 37, 38, 0.15);
+  --site-selection: #cfe1e2;
+  --site-shadow: rgba(36, 38, 37, 0.15);
 }
 
 @mixin dark-theme-vars {
   color-scheme: dark;
-  --site-background: #151112;
-  --site-surface: #20191b;
-  --site-surface-raised: #282225;
-  --site-text: #eae5e1;
-  --site-heading: #f5f0ec;
-  --site-muted: rgba(234, 229, 225, 0.68);
-  --site-border: rgba(234, 229, 225, 0.14);
-  --site-accent: #c85a64;
-  --site-accent-hover: #d16a73;
-  --site-accent-soft: rgba(200, 90, 100, 0.14);
-  --site-on-accent: #151112;
-  --site-selection: #d16a73;
+  --site-background: #111616;
+  --site-surface: #1a2120;
+  --site-surface-raised: #212928;
+  --site-text: #e6e9e7;
+  --site-heading: #f3f5f4;
+  --site-muted: rgba(230, 233, 231, 0.68);
+  --site-border: rgba(230, 233, 231, 0.14);
+  --site-accent: #6fa3a8;
+  --site-accent-hover: #8cb9bd;
+  --site-accent-soft: rgba(111, 163, 168, 0.14);
+  --site-on-accent: #111616;
+  --site-selection: #8cb9bd;
   --site-shadow: rgba(0, 0, 0, 0.55);
 }
 
@@ -275,6 +275,22 @@ h6 {
   }
 }
 
+/* Follow button (sidebar, mobile only - toggles the social links dropdown).
+   _buttons.scss hardcodes it white/grey for a light theme; themed here so
+   it doesn't show up as a stray white box in dark mode. */
+.btn--inverse {
+  color: var(--site-text) !important;
+  background-color: var(--site-surface-raised);
+  border: 1px solid var(--site-border) !important;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: var(--site-on-accent) !important;
+    background-color: var(--site-accent);
+    border-color: var(--site-accent);
+  }
+}
+
 code,
 pre {
   background-color: var(--site-surface);
@@ -292,6 +308,9 @@ pre {
   width: 100%;
   margin: 0.5em 0;
   padding: 2px 0;
+  /* on mobile the avatar (36px) + .author__content's left padding (15px)
+     indent the name/bio text; match that so this label lines up with it */
+  padding-left: 51px;
   border: 0;
   background: none;
   color: inherit;
@@ -300,6 +319,11 @@ pre {
   line-height: 1.5;
   text-align: left;
   cursor: pointer;
+
+  @include breakpoint($large) {
+    /* desktop stacks avatar above content full-width, so no indent needed */
+    padding-left: 0;
+  }
 
   &:hover {
     text-decoration: underline;
