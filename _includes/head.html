@@ -2,6 +2,33 @@
 
 <meta charset="utf-8">
 
+<script>
+  window.__theme = (function () {
+    var KEY = "theme";
+
+    function get() {
+      var stored;
+      try { stored = localStorage.getItem(KEY); } catch (e) {}
+      if (stored === "light" || stored === "dark") { return stored; }
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function apply(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      var meta = document.getElementById("theme-color-meta");
+      if (meta) { meta.setAttribute("content", theme === "dark" ? "#151112" : "#faf7f4"); }
+    }
+
+    function set(theme) {
+      try { localStorage.setItem(KEY, theme); } catch (e) {}
+      apply(theme);
+    }
+
+    apply(get());
+    return { get: get, set: set, apply: apply };
+  })();
+</script>
+
 {% include seo.html %}
 
 {% if site.atom_feed.hide != true %}

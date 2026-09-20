@@ -44,42 +44,59 @@
    Site color system
    ========================= */
 
-:root {
+@mixin light-theme-vars {
   color-scheme: light;
-  --site-background: #ffffff;
-  --site-surface: #f6f8fa;
+  --site-background: #faf7f4;
+  --site-surface: #f2ece8;
   --site-surface-raised: #ffffff;
-  --site-text: #24292f;
-  --site-heading: #1f2328;
-  --site-muted: #57606a;
-  --site-border: #d0d7de;
-  --site-accent: #0969da;
-  --site-accent-hover: #0550ae;
-  --site-accent-soft: rgba(9, 105, 218, 0.12);
-  --site-visited: #8250df;
+  --site-text: #2b2526;
+  --site-heading: #201a1b;
+  --site-muted: #6f6466;
+  --site-border: #ded4d1;
+  --site-accent: #a63d48;
+  --site-accent-hover: #8f2f3b;
+  --site-accent-soft: rgba(166, 61, 72, 0.12);
   --site-on-accent: #ffffff;
-  --site-selection: #b6d7ff;
-  --site-shadow: rgba(31, 35, 40, 0.15);
+  --site-selection: #f0d3d6;
+  --site-shadow: rgba(43, 37, 38, 0.15);
+}
+
+@mixin dark-theme-vars {
+  color-scheme: dark;
+  --site-background: #151112;
+  --site-surface: #20191b;
+  --site-surface-raised: #282225;
+  --site-text: #eae5e1;
+  --site-heading: #f5f0ec;
+  --site-muted: rgba(234, 229, 225, 0.68);
+  --site-border: rgba(234, 229, 225, 0.14);
+  --site-accent: #c85a64;
+  --site-accent-hover: #d16a73;
+  --site-accent-soft: rgba(200, 90, 100, 0.14);
+  --site-on-accent: #151112;
+  --site-selection: #d16a73;
+  --site-shadow: rgba(0, 0, 0, 0.55);
+}
+
+/* default: follow the OS preference */
+:root {
+  @include light-theme-vars;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --site-background: #0f1115;
-    --site-surface: #171a21;
-    --site-surface-raised: #1f232b;
-    --site-text: rgba(255, 255, 255, 0.88);
-    --site-heading: rgba(255, 255, 255, 0.94);
-    --site-muted: rgba(255, 255, 255, 0.68);
-    --site-border: rgba(255, 255, 255, 0.14);
-    --site-accent: #7db1ff;
-    --site-accent-hover: #a8caff;
-    --site-accent-soft: rgba(125, 177, 255, 0.14);
-    --site-visited: #d2a8ff;
-    --site-on-accent: #0f1115;
-    --site-selection: #7db1ff;
-    --site-shadow: rgba(0, 0, 0, 0.55);
+  :root:not([data-theme="light"]) {
+    @include dark-theme-vars;
   }
+}
+
+/* manual override set by the navbar theme toggle button,
+   persisted in localStorage and wins over the OS preference */
+:root[data-theme="dark"] {
+  @include dark-theme-vars;
+}
+
+:root[data-theme="light"] {
+  @include light-theme-vars;
 }
 
 html,
@@ -90,22 +107,19 @@ body {
 
 ::selection {
   background: var(--site-selection);
-  color: #0f1115;
+  color: #151112;
   text-shadow: none;
 }
 
 ::-moz-selection {
   background: var(--site-selection);
-  color: #0f1115;
+  color: #151112;
   text-shadow: none;
 }
 
-a {
-  color: var(--site-accent);
-}
-
+a,
 a:visited {
-  color: var(--site-visited);
+  color: var(--site-accent);
 }
 
 a:hover {
@@ -275,4 +289,66 @@ code,
 pre {
   background-color: var(--site-surface);
   color: var(--site-text);
+}
+
+/* Theme toggle (sidebar list item, next to Email/Github)
+   ========================================================================== */
+
+.theme-toggle {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 2px 5px 2px 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: $type-size-5;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* .author__urls-wrapper button is hidden on desktop by the theme (it's
+   normally just the mobile "Follow" dropdown trigger there) - override
+   that for our toggle specifically, on top of the generic rule above */
+.author__urls-wrapper .theme-toggle {
+  display: block;
+}
+
+.no-js .theme-toggle {
+  display: none;
+}
+
+.theme-toggle__icon--moon,
+.theme-toggle__label--moon {
+  display: none;
+}
+
+:root[data-theme="dark"] {
+  .theme-toggle__icon--sun,
+  .theme-toggle__label--sun {
+    display: none;
+  }
+
+  .theme-toggle__icon--moon,
+  .theme-toggle__label--moon {
+    display: inline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .theme-toggle__icon--sun,
+    .theme-toggle__label--sun {
+      display: none;
+    }
+
+    .theme-toggle__icon--moon,
+    .theme-toggle__label--moon {
+      display: inline;
+    }
+  }
 }

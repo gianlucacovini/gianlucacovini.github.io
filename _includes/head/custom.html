@@ -3,8 +3,8 @@
 <!-- start custom head snippets -->
 
 <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" id="theme-color-meta" content="#ffffff">
+<script>if (window.__theme) { window.__theme.apply(window.__theme.get()); }</script>
 
 {% if page.math %}
 <!-- MathJax is loaded only on pages that opt in with `math: true`. -->
