@@ -1,6 +1,7 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
+.jekyll-cache/
 
 # Ignore the directory for local files during development
 local/
@@ -11,3 +12,12 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Ignore LaTeX build intermediates while keeping the published PDFs.
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xmpi
