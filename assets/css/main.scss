@@ -56,8 +56,6 @@
   --site-accent: #0969da;
   --site-accent-hover: #0550ae;
   --site-accent-soft: rgba(9, 105, 218, 0.12);
-  --site-button: #0969da;
-  --site-button-hover: #0550ae;
   --site-on-accent: #ffffff;
   --site-selection: #b6d7ff;
   --site-shadow: rgba(31, 35, 40, 0.15);
@@ -76,8 +74,6 @@
     --site-accent: #7db1ff;
     --site-accent-hover: #a8caff;
     --site-accent-soft: rgba(125, 177, 255, 0.14);
-    --site-button: #1f6feb;
-    --site-button-hover: #145cc5;
     --site-on-accent: #0f1115;
     --site-selection: #7db1ff;
     --site-shadow: rgba(0, 0, 0, 0.55);
@@ -156,6 +152,24 @@ button:focus-visible {
   background: var(--site-surface-raised);
   border-color: var(--site-border);
   box-shadow: 0 0 12px var(--site-shadow);
+}
+
+/* on desktop .author__urls is the always-visible sidebar list, not a
+   dropdown, so it shouldn't carry the floating-card background */
+@include breakpoint($large) {
+  .author__urls {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+  }
+}
+
+/* keep sidebar link color consistent regardless of :visited history
+   (otherwise a link the visitor has browsed before, e.g. github.com,
+   turns accent-colored while untouched links stay muted) */
+.author__urls a,
+.author__urls a:visited {
+  color: inherit;
 }
 
 .greedy-nav .hidden-links a {
@@ -249,12 +263,7 @@ h6 {
 
 .btn,
 .btn:visited {
-  background-color: var(--site-button);
   text-decoration: none;
-}
-
-.btn:hover {
-  background-color: var(--site-button-hover);
 }
 
 code,
