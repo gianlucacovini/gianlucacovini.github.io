@@ -9,6 +9,9 @@ baseurl: ""
 repository: "gianlucacovini/gianlucacovini.github.io"
 og_image: "Photo_Gianluca_Covini_square.jpg"
 
+# Search engine site verification
+google_site_verification: "Bii1lNIbbU8s0ZSFqqjyA9ZWTgx9nvYM_skGpCb9dPc"
+
 # Structured data for search engines
 social:
   type: Person
