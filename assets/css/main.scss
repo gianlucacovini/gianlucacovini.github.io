@@ -285,19 +285,34 @@ h6 {
   text-decoration: none;
 }
 
+/* CV download buttons (and any other button in the article body)
+   pick up the accent color on hover, instead of the theme's flat grey.
+   Excludes .btn--inverse, which is the sidebar's mobile "Follow" toggle. */
+.btn:not(.btn--inverse) {
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--site-accent);
+  }
+}
+
 code,
 pre {
   background-color: var(--site-surface);
   color: var(--site-text);
 }
 
-/* Theme toggle (sidebar list item, next to Email/Github)
+/* Theme toggle (sidebar, between the bio and the social links -
+   deliberately NOT inside .author__urls-wrapper: the theme binds a
+   click handler to every <button> in that wrapper to open/close the
+   mobile "Follow" dropdown, which would hide this button's siblings too)
    ========================================================================== */
 
 .theme-toggle {
+  display: block;
   width: 100%;
-  margin-bottom: 5px;
-  padding: 2px 5px 2px 0;
+  margin: 0.5em 0;
+  padding: 2px 0;
   border: 0;
   background: none;
   color: inherit;
@@ -311,17 +326,12 @@ pre {
   }
 }
 
-/* .author__urls-wrapper button is hidden on desktop by the theme (it's
-   normally just the mobile "Follow" dropdown trigger there) - override
-   that for our toggle specifically, on top of the generic rule above */
-.author__urls-wrapper .theme-toggle {
-  display: block;
-}
-
 .no-js .theme-toggle {
   display: none;
 }
 
+/* icon/label reflect the current theme: sun+"Light mode" while light,
+   moon+"Dark mode" while dark */
 .theme-toggle__icon--moon,
 .theme-toggle__label--moon {
   display: none;
