@@ -19,7 +19,8 @@ social:
   links:
     - "https://github.com/gianlucacovini"
     - "https://faculty.unibocconi.eu/gianlucacovini/"
-    # Add here once created: Google Scholar profile, ORCID iD (see chat notes)
+    - "https://orcid.org/0009-0001-2803-8209"
+    # Add here once created: Google Scholar profile (see chat notes)
 
 # Sidebar profile
 author:
@@ -29,6 +30,7 @@ author:
   location: "Milan, Italy"
   email: "gianluca.covini@phd.unibocconi.it"
   github: "gianlucacovini"
+  orcid: "https://orcid.org/0009-0001-2803-8209"
 
 # Site behavior
 breadcrumbs: false
