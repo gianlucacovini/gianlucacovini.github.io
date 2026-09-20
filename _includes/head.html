@@ -17,6 +17,8 @@
       document.documentElement.setAttribute("data-theme", theme);
       var meta = document.getElementById("theme-color-meta");
       if (meta) { meta.setAttribute("content", theme === "dark" ? "#151112" : "#faf7f4"); }
+      var btn = document.getElementById("theme-toggle");
+      if (btn) { btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false"); }
     }
 
     function set(theme) {

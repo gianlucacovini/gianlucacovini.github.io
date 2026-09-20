@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 <p>
-  <a class="btn btn--primary" href="{{ '/assets/files/CV/extended/build/academic_cv.pdf' | relative_url }}">Download extended CV</a>
-  <a class="btn btn--primary" href="{{ '/assets/files/CV/short/build/shortCV.pdf' | relative_url }}">Download shorter version</a>
+  <a class="btn btn--primary" href="{{ '/assets/files/CV/extended/build/academic_cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download extended CV</a>
+  <a class="btn btn--primary" href="{{ '/assets/files/CV/short/build/shortCV.pdf' | relative_url }}" target="_blank" rel="noopener">Download shorter version</a>
 </p>
 
 ---

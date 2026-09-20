@@ -16,15 +16,15 @@ This page collects projects and academic reports produced before and during the 
   Master’s Thesis  
   
   The thesis investigates optimal parameter control for randomized optimization algorithms using enriched state-space models, under the supervision of **Prof. Carola Doerr (Sorbonne Université/CNRS)** and **Prof. Stefano Gualandi (University of Pavia)**.<br>
-  → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}) ·
-  [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }})
+  → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}){:target="_blank" rel="noopener"} ·
+  [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
   Bachelor’s Thesis  
   
   This thesis studies Ewens’ sampling formula and its applications to population genetics models, under the supervision of **Prof. Emanuele Dolera**.<br>
-  → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}) ·
-  [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }})
+  → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}){:target="_blank" rel="noopener"} ·
+  [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 ---
 
@@ -36,15 +36,15 @@ This page collects projects and academic reports produced before and during the 
 
 - **Submodularity for Distributionally Robust Optimization** <br>
   This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }})
+  → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Statistical Study of Stochastic Optimization Problems**  <br>
   This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }})
+  → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Internship Report at Sphaera**  <br>
   This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }})
+  → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 ---
 
@@ -53,55 +53,55 @@ This page collects projects and academic reports produced before and during the 
 Some examinations during my studies included the preparation of a presentation or a written report. Relative materials are listed below.
 
 Additional laboratory work and programming assignments developed during BSc and MSc courses are available on my GitHub profile:  
-→ [github.com/gianlucacovini](https://github.com/gianlucacovini)
+→ [github.com/gianlucacovini](https://github.com/gianlucacovini){:target="_blank" rel="noopener"}
 
 ### PhD courses
 
 - **Machine Learning**  
-  [Optimal Transport for Generative Modeling]({{ '/assets/files/Exams/PhD/OT_generative.pdf' | relative_url }})
+  [Optimal Transport for Generative Modeling]({{ '/assets/files/Exams/PhD/OT_generative.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Stochastic Processes**  
-  [Mean-field Schrödinger Problem]({{ '/assets/files/Exams/PhD/MFSP.pdf' | relative_url }})
+  [Mean-field Schrödinger Problem]({{ '/assets/files/Exams/PhD/MFSP.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Statistical Theory**  
-  [Merging Rate of Opinions via Optimal Transport on Random Measures]({{ '/assets/files/Exams/PhD/merging_rate.pdf' | relative_url }})
+  [Merging Rate of Opinions via Optimal Transport on Random Measures]({{ '/assets/files/Exams/PhD/merging_rate.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Graph Theory**  
-  Spectral Graph Theory and Discrete Poisson Equation: [slides]({{ '/assets/files/Exams/PhD/Slides_GT.pdf' | relative_url }}), [report]({{ '/assets/files/Exams/PhD/Report_GT.pdf' | relative_url }})
+  Spectral Graph Theory and Discrete Poisson Equation: [slides]({{ '/assets/files/Exams/PhD/Slides_GT.pdf' | relative_url }}){:target="_blank" rel="noopener"}, [report]({{ '/assets/files/Exams/PhD/Report_GT.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Julia Programming**  
-  [SlicedWasserstein.jl](https://github.com/gianlucacovini/SlicedWasserstein.jl): a Julia package for sliced optimal transport and an application to clustering
+  [SlicedWasserstein.jl](https://github.com/gianlucacovini/SlicedWasserstein.jl){:target="_blank" rel="noopener"}: a Julia package for sliced optimal transport and an application to clustering
 
 - **Optimization**  
-  [The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }})
+  [The Information Geometry of Optimization]({{ '/assets/files/Exams/PhD/Optimization_slide_def.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Optimal Transport**  
-  [The Gradient Flow Interpretation of the Fokker–Planck Equation]({{ '/assets/files/Exams/PhD/OT_Slide_definitive.pdf' | relative_url }})
+  [The Gradient Flow Interpretation of the Fokker–Planck Equation]({{ '/assets/files/Exams/PhD/OT_Slide_definitive.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Statistical Mechanics for Complex Systems**  
-  [Mean-Field Optimal Control]({{ '/assets/files/Exams/PhD/MeanFieldOC _exam.pdf' | relative_url }})
+  [Mean-Field Optimal Control]({{ '/assets/files/Exams/PhD/MeanFieldOC _exam.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 ---
 
 ### Master’s and Bachelor’s courses
 
 - **Statistical Methods for Physics**  
-  [Simulated Annealing: A Monte Carlo Algorithm for Non-convex Optimization]({{ '/assets/files/Exams/Laurea/SMP_Covini.pdf' | relative_url }})
+  [Simulated Annealing: A Monte Carlo Algorithm for Non-convex Optimization]({{ '/assets/files/Exams/Laurea/SMP_Covini.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Machine Learning**  
-  [Beans Classification]({{ '/assets/files/Exams/Laurea/GianlucaCoviniMLExam01092023.pdf' | relative_url }})
+  [Beans Classification]({{ '/assets/files/Exams/Laurea/GianlucaCoviniMLExam01092023.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Econometrics** (Italian)  
-  [Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }})
+  [Iscrizioni in scuole private]({{ '/assets/files/Exams/Laurea/Report_Econometria.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Foundations of Data Science** (Italian)  
-  [SVD Randomizzata: un algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }})
+  [SVD Randomizzata: un algoritmo per la riduzione della dimensionalità]({{ '/assets/files/Exams/Laurea/Presentazione_rSVD.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Optimization Algorithms and Models** (Italian)  
-  [Round-Based Public Transit Routing: un algoritmo per il trasporto multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }})
+  [Round-Based Public Transit Routing: un algoritmo per il trasporto multimodale]({{ '/assets/files/Exams/Laurea/Presentazione_RAPTOR.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Numerical Modeling** (Italian)  
-  [Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }})
+  [Il problema del pendolo]({{ '/assets/files/Exams/Laurea/Relazione_Modellistica.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Numerical Analysis** (Italian)  
-  [Metodi iterativi per sistemi lineari e integrazione numerica]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }})
+  [Metodi iterativi per sistemi lineari e integrazione numerica]({{ '/assets/files/Exams/Laurea/Relazione_numerica.pdf' | relative_url }}){:target="_blank" rel="noopener"}

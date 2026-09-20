@@ -253,27 +253,6 @@ h6 {
   margin-top: 0.35em;
 }
 
-.author__avatar-emoji {
-  display: flex;
-  width: 36px;
-  height: 36px;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border: 1px solid var(--site-border);
-  border-radius: 50%;
-  background: var(--site-surface);
-  font-size: 1.5rem;
-  line-height: 1;
-
-  @include breakpoint($large) {
-    width: 112px;
-    height: 112px;
-    margin-top: 5px;
-    font-size: 3.25rem;
-  }
-}
-
 .social-icons .fa-github,
 .social-icons .fa-github-alt,
 .social-icons .fa-github-square {
