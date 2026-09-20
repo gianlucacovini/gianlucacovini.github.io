@@ -12,39 +12,40 @@ This page collects projects and academic reports produced before and during the 
 
 ## Theses
 
-- **Parameter Control for LeadingOnes on Enhanced State Spaces**  
-  Master’s Thesis  
-  
-  The thesis investigates optimal parameter control for randomized optimization algorithms using enriched state-space models, under the supervision of **Prof. Carola Doerr (Sorbonne Université/CNRS)** and **Prof. Stefano Gualandi (University of Pavia)**.<br>
+- **Parameter Control for LeadingOnes on Enhanced State Spaces**<br>
+  MSc thesis, University of Pavia, 2025. Advisors: C. Doerr
+  (Sorbonne Université/CNRS), S. Gualandi (University of Pavia).  <br>
   → [Thesis (PDF)]({{ '/assets/files/Thesis/Master_Thesis___Gianluca_Covini_definitiva.pdf' | relative_url }}){:target="_blank" rel="noopener"} ·
   [Slides]({{ '/assets/files/Thesis/Thesis_presentation.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 - **Ewens' Sampling Formula and Applications to the Study of Biodiversity** (Italian)  
-  Bachelor’s Thesis  
-  
-  This thesis studies Ewens’ sampling formula and its applications to population genetics models, under the supervision of **Prof. Emanuele Dolera**.<br>
+  BSc thesis,  University of Pavia, 2025. Advisor: E. Dolera. <br>
   → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}){:target="_blank" rel="noopener"} ·
   [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 ---
 
-## Undergraduate Reports and Research Projects
+## Student Reports and Research Projects
 
-- **Research in Statistical Optimal Transport**  
-  Ongoing research collaboration with **Prof. Carlo Ciliberto** (UCL) on entropic approximations of the Knothe–Rosenblatt rearrangement and Bayesian inference.  
-  (Status: work in progress)
+- **Bayesian sampling via entropic approximations of the
+  Knothe–Rosenblatt rearrangement**  
+  With C. Ciliberto (UCL). 
 
-- **Submodularity for Distributionally Robust Optimization** <br>
-  This report surveys the role of submodular functions in distributionally robust optimization, under the supervision of **Prof. Angelos Georghiou** and **Prof. Rosario Paradiso**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Submodularity for Distributionally Robust Optimization**  
+  Report, 2024. Supervisors: A. Georghiou (University of Cyprus), R. Paradiso (VU Amsterdam).  
+  A survey of submodular functions in distributionally robust optimization.  
+  [PDF]({{ '/assets/files/Reports/DRO_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
-- **Statistical Study of Stochastic Optimization Problems**  <br>
-  This project investigated the statistical consistency properties of stochastic optimization problems, conducted at the Statistical Laboratory under the supervision of **Prof. Qingyuan Zhao** and **Tobias Freidling**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Statistical Study of Stochastic Optimization Problems**  
+  Statistical Laboratory, University of Cambridge, 2024.
+  Supervisors: Q. Zhao, T. Freidling.  
+  Consistency properties of stochastic optimization problems.  
+  [PDF]({{ '/assets/files/Reports/stat_opt_report.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
-- **Internship Report at Sphaera**  <br>
-  This project consisted in the development of an algorithm for sports analytics combining neural networks and computer vision techniques, conducted at the startup Sphaera under the supervision of **Dr. Mirko Messori** and **Dr. Giuseppe Marseglia**.<br>
-  → [Report (PDF)]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Sports Analytics at Sphaera**  
+  Internship report, 2024. Supervisors: M. Messori, G. Marseglia.  
+  An algorithm combining neural networks and computer vision.  
+  [PDF]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
 ---
 
