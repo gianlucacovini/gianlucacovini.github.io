@@ -38,4 +38,4 @@ This page collects my publications and talks.
   Registered in the Julia General Registry (v0.1.0).  
   [Docs](...){:target="_blank" rel="noopener"} ·
   [GitHub](...){:target="_blank" rel="noopener"} ·
-  [doi:10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX){:target="_blank" rel="noopener"}
+  [doi:10.5281/zenodo.20631260](https://doi.org/10.5281/zenodo.20631260)){:target="_blank" rel="noopener"}
