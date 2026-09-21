@@ -1,10 +1,9 @@
 ---
 layout: archive
 title: "Research"
+description: "Publications, talks, and software by Gianluca Covini, PhD student in Statistics & Computer Science at Bocconi University, working on optimal transport and related topics."
 permalink: /research/
 author_profile: true
-sitemap: false
-robots: "noindex, nofollow"
 ---
 
 This page collects my publications and talks.

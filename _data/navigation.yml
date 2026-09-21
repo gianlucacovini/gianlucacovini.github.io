@@ -2,10 +2,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  # Intentionally hidden until the next preprint is ready.
-  # Keep both this entry and _pages/research.md.
-  # - title: "Research"
-  #   url: /research/
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/
