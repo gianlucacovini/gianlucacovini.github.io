@@ -8,8 +8,6 @@ author_profile: true
 
 This page collects material related to my teaching and academic tutoring activities.
 
----
-
 ## At Bocconi University
 
 - **Algebraic and Topological Methods (30758)**, *A.Y. 2026-2027*, Bachelor in Artificial Intelligence<br>
@@ -23,8 +21,6 @@ This page collects material related to my teaching and academic tutoring activit
 
 More information about degree courses at Bocconi University is available [here]({{ 'https://didattica.unibocconi.it/ts/tsn_ord_num.php?anno=2027' }}){:target="_blank" rel="noopener"}.
 
----
-
 ## At Collegio Borromeo
 
 - **Advanced Computational Statistics** (in Italian), *A.Y. 2023-2024*, Short course open to external participants<br>
@@ -32,8 +28,6 @@ More information about degree courses at Bocconi University is available [here](
 
 *Topics*: Introduction to data analysis using *R*; descriptive statistics: measures of location and dispersion, concentration measures, association and concordance indices; statistical inference: regression models and hypothesis testing.<br>
 → [Course materials (Google Drive)]({{ 'https://drive.google.com/drive/folders/1nZk8QEl3tePR4NvGvKH5h1OyZuf_vDgP?usp=drive_link' }}){:target="_blank" rel="noopener"}
-
----
 
 ## At University of Pavia
 

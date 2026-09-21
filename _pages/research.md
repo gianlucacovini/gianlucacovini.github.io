@@ -9,8 +9,6 @@ robots: "noindex, nofollow"
 
 This page collects my publications and talks.
 
----
-
 ## Publications
 
 - **Enhancing Parameter Control Policies with State Information**  
@@ -19,8 +17,6 @@ This page collects my publications and talks.
   Foundations of Genetic Algorithms*, Leiden, 2025, pp. 37–48.  
   [ACM DL](https://doi.org/10.1145/3729878.3746633){:target="_blank" rel="noopener"} ·
   [arXiv:2507.08368](https://arxiv.org/abs/2507.08368){:target="_blank" rel="noopener"}
-
----
 
 ## Talks
 
@@ -36,10 +32,6 @@ This page collects my publications and talks.
   WIAS Berlin (online), 2025.  
   On Lambert et al., *Variational Inference via Wasserstein Gradient Flows*.  
   [Slides]({{ '/assets/files/Talks/WIAS_PhD_presentation.pdf' | relative_url }})
-
----
-
-## Software
 
 ## Software
 

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   WEBFONTS
+
+   IBM Plex Sans (SIL Open Font License), self-hosted like the other
+   icon webfonts in assets/webfonts. Latin subset only (covers Italian
+   accented characters) in the two weights actually used by the theme:
+   regular body text and semibold for heading/nav emphasis.
+   ========================================================================== */
+
+$plex-font-path: "../fonts" !default;
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("#{$plex-font-path}/ibm-plex-sans-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("#{$plex-font-path}/ibm-plex-sans-600.woff2") format("woff2");
+}

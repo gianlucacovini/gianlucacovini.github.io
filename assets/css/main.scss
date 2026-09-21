@@ -15,6 +15,7 @@
 @import "mixins";
 @import "vendor/susy/susy";
 
+@import "fonts";
 @import "reset";
 @import "base";
 
@@ -248,6 +249,12 @@ h6 {
   color: var(--site-muted);
 }
 
+/* the name is the one element in the sidebar that should read at
+   full strength; everything else (bio, location, links) stays muted */
+.sidebar .author__name {
+  color: var(--site-heading);
+}
+
 .author__bio br {
   content: "";
   display: block;
@@ -307,11 +314,11 @@ pre {
 .theme-toggle {
   display: block;
   width: 100%;
-  margin: 0.5em 0;
+  margin: 0.35em 0;
   padding: 2px 0;
-  /* on mobile the avatar (36px) + .author__content's left padding (15px)
+  /* on mobile the avatar (32px) + .author__content's left padding (15px)
      indent the name/bio text; match that so this label lines up with it */
-  padding-left: 51px;
+  padding-left: 47px;
   border: 0;
   background: none;
   color: inherit;

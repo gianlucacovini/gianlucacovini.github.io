@@ -20,7 +20,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(1 of 12);
   }
 
   .page__inner-wrap {
@@ -49,6 +49,12 @@
 }
 
 .page__content {
+
+  /* cap the reading measure on very wide screens so the extra room
+     freed up from the sidebar doesn't turn into overly long lines */
+  @include breakpoint($x-large) {
+    max-width: 48em;
+  }
 
   h2 {
     padding-bottom: 0.5em;

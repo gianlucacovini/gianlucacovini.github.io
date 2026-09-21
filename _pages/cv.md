@@ -13,8 +13,6 @@ redirect_from:
   <a class="btn btn--primary" href="{{ '/assets/files/CV/short/build/shortCV.pdf' | relative_url }}" target="_blank" rel="noopener">Download shorter version</a>
 </p>
 
----
-
 ## Education
 
 - **PhD in Statistics & Computer Science**, Bocconi University, *2025–present*
@@ -24,8 +22,6 @@ redirect_from:
 - **Fellow**, Almo Collegio Borromeo, *2022–2024*
 
 - **BSc in Mathematics**, University of Pavia, *2019–2022*
-
----
 
 ## Past Positions
 

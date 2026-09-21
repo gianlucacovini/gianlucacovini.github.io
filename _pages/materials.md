@@ -8,8 +8,6 @@ author_profile: true
 
 This page collects projects and academic reports produced before and during the first stages of my PhD.
 
----
-
 ## Theses
 
 - **Parameter Control for LeadingOnes on Enhanced State Spaces**<br>
@@ -22,8 +20,6 @@ This page collects projects and academic reports produced before and during the 
   BSc thesis,  University of Pavia, 2025. Advisor: E. Dolera. <br>
   → [Thesis (PDF)]({{ '/assets/files/Thesis/TesiSecondaVersione.pdf' | relative_url }}){:target="_blank" rel="noopener"} ·
   [Slides]({{ '/assets/files/Thesis/Presentazione_tesi_triennale-3.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-
----
 
 ## Student Reports and Research Projects
 
@@ -46,8 +42,6 @@ This page collects projects and academic reports produced before and during the 
   Internship report, 2024. Supervisors: M. Messori, G. Marseglia.  
   An algorithm combining neural networks and computer vision.  
   [PDF]({{ '/assets/files/Reports/Relazione_Sphaera_compressed.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-
----
 
 ## Exam Projects
 
@@ -81,8 +75,6 @@ Additional laboratory work and programming assignments developed during BSc and 
 
 - **Statistical Mechanics for Complex Systems**  
   [Mean-Field Optimal Control]({{ '/assets/files/Exams/PhD/MeanFieldOC _exam.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-
----
 
 ### Master’s and Bachelor’s courses
 
