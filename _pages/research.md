@@ -6,8 +6,6 @@ permalink: /research/
 author_profile: true
 ---
 
-This page collects my publications and talks.
-
 ## Publications
 
 - **Enhancing Parameter Control Policies with State Information**  
@@ -36,6 +34,6 @@ This page collects my publications and talks.
 
 - **SlicedWasserstein.jl** — sliced Wasserstein distances in Julia.  
   Registered in the Julia General Registry (v0.1.0).  
-  [Docs](...){:target="_blank" rel="noopener"} ·
-  [GitHub](...){:target="_blank" rel="noopener"} ·
-  [doi:10.5281/zenodo.20631260](https://doi.org/10.5281/zenodo.20631260)){:target="_blank" rel="noopener"}
+  [Docs](https://gianlucacovini.github.io/SlicedWasserstein.jl/dev/){:target="_blank" rel="noopener"} ·
+  [GitHub](https://github.com/gianlucacovini/SlicedWasserstein.jl/tree/main){:target="_blank" rel="noopener"} ·
+  [doi:10.5281/zenodo.20631260](https://doi.org/10.5281/zenodo.20631260){:target="_blank" rel="noopener"}
