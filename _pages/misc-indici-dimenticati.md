@@ -76,4 +76,5 @@ robots: "noindex, nofollow"
 - G. Pietra, "On the relations between variability indices (Note I)", *Metron*, vol. 72, pp. 5–16, 2014.  
   Traduzione inglese moderna della Nota I del 1915.
 
-- Lavenant, Catalano, *Measures of dependence*, ecc.
+- M. Catalano e H. Lavenant, "Measures of Dependence based on Wasserstein distances", arXiv:2510.06034, 2025 (di prossima pubblicazione su *Statistical Science*).  
+  [arXiv:2510.06034](https://arxiv.org/abs/2510.06034) — definizione di indici di dipendenza tramite distanze di Wasserstein, collegabile alla lettura trasportistica di Gini e Salvemini.
