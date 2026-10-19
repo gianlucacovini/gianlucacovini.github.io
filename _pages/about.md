@@ -13,7 +13,7 @@ I am a second-year PhD student in **Statistics & Computer Science** at [Bocconi 
 
 I obtained my **BSc and MSc in Mathematics** from [University of Pavia](https://matematica.unipv.it/en/homepage/).
 
-**Research interests:** My current field of research is *optimal transport*.  
+**Research interests:** My current research is in *optimal transport*.  
 More broadly, I am interested in studying problems from statistics and computation with tools from calculus of variations, gradient flows and differential geometry.
 
 Currently, I am working on variational problems involving Sinkhorn divergences, with motivations from machine learning and numerical analysis.
