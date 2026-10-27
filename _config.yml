@@ -7,7 +7,7 @@ description: "PhD student at Bocconi University"
 url: "https://gianlucacovini.github.io"
 baseurl: ""
 repository: "gianlucacovini/gianlucacovini.github.io"
-og_image: "Photo_Gianluca_Covini_square.jpg"
+og_image: "Photo_Gianluca_Covini_square.jpeg"
 
 # Search engine site verification
 google_site_verification: "Bii1lNIbbU8s0ZSFqqjyA9ZWTgx9nvYM_skGpCb9dPc"
@@ -26,7 +26,7 @@ social:
 
 # Sidebar profile
 author:
-  avatar: "Photo_Gianluca_Covini_square.jpg"
+  avatar: "Photo_Gianluca_Covini_square.jpeg"
   name: "Gianluca Covini"
   bio: "PhD student in Statistics & Computer Science<br>Bocconi University"
   location: "Milan, Italy"
